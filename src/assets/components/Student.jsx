@@ -1,6 +1,6 @@
 import Topic from "../components/Topic";
-import LeftTopStudent from "./leftTopStudent";
-import RightTopStudent from "./rightTopStudent";
+import LeftTopStudent from "../components/LeftTopStudent";
+import RightTopStudent from "../components/RightTopStudent";
 
 
 export default function Student() {
