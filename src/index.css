@@ -1,1 +1,46 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Beacon Aesthetic';
+  src: url('./assets/fonts/BeaconAesthetic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme{
+
+    --font-primary: 'Beacon Aesthetic', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
+    /* font-colors */
+    --color-primary: #e08a00;
+    --color-secondary: #4A5565;
+
+    --breakpoint-xsm: 430px;  /* custom small breakpoint */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+
+body {
+  font-family: 'Beacon Aesthetic', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.swiper-slide .swiper-scale-wrapper {
+  transform: scale(0.9);
+  transition: transform 0.5s ease;
+}
+
+.swiper-slide-active .swiper-scale-wrapper {
+  transform: scale(1.08);
+  z-index: 10;
+}
