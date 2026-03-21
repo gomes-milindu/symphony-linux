@@ -24,7 +24,7 @@ function Header() {
             }}
           ></div>
 
-          <div className="font-primary text-4xl  text-white m-5">Start Your Musica</div>
+          <div className="font-primary text-4xl  text-white m-5">Start Your Musical</div>
           <div className="font-primary text-4xl  text-white">Journey Today</div>
           <HomePageBtn />
         </div>
