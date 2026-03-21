@@ -22,7 +22,7 @@ function FooterDesktop() {
             backgroundSize: "100% auto",
           }}
         >
-          <div className="w-10/12 h-[150px]"></div>
+          <div className="w-10/12 h-[180px]"></div>
           <div className="w-10/12 h-[400px] flex flex-row p-15 justify-around items-start">
             {/* Left Side */}
             <div className="w-fit h-fit flex flex-col justify-center items-center gap-4">
