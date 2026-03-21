@@ -11,7 +11,7 @@ function Header() {
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/maskMobile.png)`,
+            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Maskgroup2.png)`,
             backgroundSize: "100% auto",
           }}
         >
