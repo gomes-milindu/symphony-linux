@@ -1,3 +1,5 @@
+import Navbar from "../components/Navbar";
+import HomePageBtn from "./HomePageBtn";
 
 
 
@@ -13,7 +15,7 @@ function Header() {
             backgroundSize: "100% auto",
           }}
         >
-          {/* <Navbar /> */}
+          <Navbar />
           <div
             className="w-30 h-30 bg-cover bg-center bg-no-repeat m-10"
             style={{
@@ -24,7 +26,7 @@ function Header() {
 
           <div className="font-primary text-4xl  text-white m-5">Start Your Musica</div>
           <div className="font-primary text-4xl  text-white">Journey Today</div>
-          {/* <HomePageBtn /> */}
+          <HomePageBtn />
         </div>
       </section>
 
@@ -37,7 +39,7 @@ function Header() {
             backgroundSize: "100% auto",
           }}
         >
-          {/* <Navbar /> */}
+          <Navbar />
           <div
             className="w-30 h-30 bg-cover bg-center bg-no-repeat m-5"
              
@@ -50,7 +52,7 @@ function Header() {
 
           <div className="font-primary text-5xl text-white m-5">Start Your Musical</div>
           <div className="font-primary text-5xl text-white">Journey Today</div>
-          {/* <HomePageBtn /> */}
+          <HomePageBtn />
         </div>
       </section>
 
@@ -63,7 +65,7 @@ function Header() {
             backgroundSize: "100% auto",
           }}
         >
-          {/* <Navbar /> */}
+          <Navbar />
           <div
             className="w-40 h-40 bg-cover bg-center bg-no-repeat m-10"
             style={{
@@ -74,7 +76,7 @@ function Header() {
 
           <div className="font-primary text-7xl text-white m-5">Start Your Musical</div>
           <div className="font-primary text-7xl text-white">Journey Today</div>
-          {/* <HomePageBtn /> */}
+          <HomePageBtn />
         </div>
       </section>
     </>
