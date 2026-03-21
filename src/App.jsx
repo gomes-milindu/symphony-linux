@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Homepage from './assets/pages/HomePage'
+import Landing from './assets/pages/Landing'
+
+
 
 function App() {
 
@@ -9,7 +11,7 @@ function App() {
     <>
        <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
+          <Route path="/" element={<Landing />} />
         
           
         </Routes>
