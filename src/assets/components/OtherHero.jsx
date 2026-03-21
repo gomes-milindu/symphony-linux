@@ -16,7 +16,7 @@ function OtherHero(props) {
     { name: "Classes", path: "/classes" },
     { name: "Events", path: "/events" },
     { name: "Gallery", path: "/gallery" },
-    { name: "About Us", path: "/about" },
+    { name: "About Us", path: "/aboutus" },
     { name: "Contact Us", path: "/contactus" },
   ];
   return (
