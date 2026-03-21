@@ -1,3 +1,6 @@
+import Topic from "../components/Topic";
+import Button1 from "../components/Button1";
+
 function OurStory() {
   return (
     <>
@@ -6,7 +9,7 @@ function OurStory() {
           <div className="w-full xl:w-6/12 xl:flex flex flex-col h-full xl:gap-[30px] justify-center items-center xl:items-start">
             <div className="w-full md:w-1/2 xl:w-6/12 flex flex-col justify-center items-center">
               <div className="flex justify-center items-center xl:justify-start xl:items-start text-center xl:text-left w-full">
-                {/* <Topic title="Our Story" /> */}
+                <Topic title="Our Story" />
               </div>
 
               <div className="xl:hidden w-full flex justify-center items-center -mt-12 md:-mt-16 ">
@@ -58,7 +61,7 @@ function OurStory() {
                 </p>
               </div>
               <div className="">
-                {/* <Button1 buttonname="View About Us" /> */}
+                <Button1 buttonname="View About Us" />
               </div>
             </div>
           </div>
