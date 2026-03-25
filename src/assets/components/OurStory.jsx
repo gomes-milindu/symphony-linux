@@ -8,7 +8,7 @@ function OurStory() {
         <div className="xl:w-9/12 w-full flex flex-row xl:justify-center xl:items-center lg:ml-5  pb-20">
           <div className="w-full xl:w-6/12 xl:flex flex flex-col h-full xl:gap-[30px] justify-center items-center xl:items-start">
             <div className="w-full md:w-1/2 xl:w-6/12 flex flex-col justify-center items-center">
-              <div className="flex justify-center items-center xl:justify-start xl:items-start text-center xl:text-left w-full">
+              <div className="flex justify-center items-center mt-5 xl:justify-start xl:items-start text-center xl:text-left w-full">
                 <Topic title="Our Story" />
               </div>
 
