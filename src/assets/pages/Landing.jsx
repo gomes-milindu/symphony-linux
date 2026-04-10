@@ -29,7 +29,7 @@ export default function Landing() {
 
         <ClassCartSet />
         
-
+        <UpComingSection />
         <Footer />
     </div>
   );

@@ -2,33 +2,33 @@ import Card from "../components/Card";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-
+ //para: "Learn from professional musicians with years of teaching experience ",
 function ExpertSection() {
   const cards = [
     {
-      icon: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Icons.png')`,
+      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "Expert Instructors",
-      para: "Learn from professional musicians with years of teaching experience ",
+      para: "Highly qualified instructors focused on proffessional music training",
     },
     {
-      icon: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Icons.png')`,
-      topic: "Flexible Schedule",
-      para: "Learn from professional musicians with years of teaching experience",
+      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      topic: "International Curriculum",
+      para: "Globally recognized curriculum aligned with International standards.",
     },
     {
-      icon: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Icons.png')`,
+      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "Certified Courses",
-      para: "Learn from professional musicians with years of teaching experience",
+      para: "Promoting structured, disciplined, and accessible music education within society",
     },
     {
-      icon: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Icons.png')`,
+      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "Modern Studios",
-      para: "Learn from professional musicians with years of teaching experience",
+      para: "Earn globally respected certifications from graded exams to diplomas.",
     },
     {
-      icon: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Icons.png')`,
+      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "Performance Events",
-      para: "Learn from professional musicians with years of teaching experience",
+      para: "Qualifications offer UCAS points for overseas higher education opportunities.",
     },
   ];
 
@@ -76,7 +76,7 @@ function ExpertSection() {
         <div className="w-full h-fit  hidden xl:flex flex-col justify-center  items-center gap-5">
           {/* ================= TOP ROW ================= */}
 
-          <div className="w-5/8 h-fit flex felx-row gap-5 ">
+          <div className="w-6/8 h-fit flex felx-row gap-5 justify-center">
             <div className=" h-[220px] ">
               <Card {...cards[0]} />
             </div>
@@ -87,7 +87,7 @@ function ExpertSection() {
           </div>
 
           {/* ================= BOTTOM ROW ================= */}
-          <div className="w-11/12 h-fit flex felx-row gap-5 ">
+          <div className="w-11/12 h-fit flex felx-row gap-5">
             <div className="h-[220px]">
               <Card {...cards[2]} />
             </div>

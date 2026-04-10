@@ -12,7 +12,7 @@ function UpComingMobile(props) {
                 {/* Image Placeholder - Reusing Guitar image for now as placeholder or dynamic if passed */}
                 <div className="w-full h-[200px] bg-gray-200 rounded-lg overflow-hidden">
                     <img
-                        src="src/assets/joinOurClass/Guitar.jpg"
+                        src={props.eventImage}
                         alt="Event"
                         className="w-full h-full object-cover"
                         onError={(e) => { e.target.onerror = null; e.target.parentNode.style.backgroundColor = '#d1d5db' }}

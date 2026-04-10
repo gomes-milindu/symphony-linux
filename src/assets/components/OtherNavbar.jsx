@@ -9,8 +9,8 @@ function OtherNavbar(){
                 <Link to="/classes" className="text-black hidden sm:inline-block">Classes</Link>
                 <Link to="/events"  className="hidden sm:inline-block">Event</Link>
                 <Link to="/gallery" className="hidden sm:inline-block">Gallery</Link>
-                <Link to="/aboutus"  className="hidden sm:inline-block">About us</Link>
-                <Link to="/contactus"className="hidden sm:inline-block">Contact us</Link>
+                <Link to="/aboutus"  className="hidden sm:inline-block">About</Link>
+                <Link to="/contactus"className="hidden sm:inline-block">Contact</Link>
                 <Link className="sm:hidden">Button</Link>
             </div>
             
