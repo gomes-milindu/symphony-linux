@@ -24,7 +24,7 @@ function Event() {
       subtitle={"Capturing moments of musical joy, growth, and achievement"}/>
       
       {/* <AboutLeftCurve /> */}
-    <EventsLeftCurve />
+    {/* <EventsLeftCurve /> */}
       {/* <EventsSection/> */}
       <EventsSection />
       

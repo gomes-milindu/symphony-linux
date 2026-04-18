@@ -24,7 +24,7 @@ export default function EventsSection() {
 
   return (
     <section className="w-full flex flex-col items-center justify-center">
-      <div className="w-3/4 md:w-full xl:w-8/12 flex flex-col p-5 items-center justify-center md:p-4 xl:p-0">
+      <div className="w-full md:w-full xl:w-8/12 flex flex-col p-5 items-center justify-center md:p-4 xl:p-0">
         
         {/* FILTER */}
         <div className="flex justify-center items-center w-full md:w-2/6 xl:w-4/12 gap-5 md:gap-1 mb-14">
@@ -44,7 +44,7 @@ export default function EventsSection() {
         </div>
 
         {/* ================= MOBILE ================= */}
-        <div className="flex flex-col w-full gap-10 md:hidden">
+        <div className="w-[95%] flex flex-col gap-10 md:hidden">
           {mobileBigCard ? (
             <>
               <button
