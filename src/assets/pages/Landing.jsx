@@ -32,7 +32,10 @@ export default function Landing() {
       {/* <LandingRightCurve />  */}
       <ClassCartSet />
 
-      <UpComingSection />
+       <Reveal>
+        <UpComingSection />
+      </Reveal>
+      
       <Footer />
     </div>
   );

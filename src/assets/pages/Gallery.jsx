@@ -3,6 +3,7 @@ import OtherHero from "../components/OtherHero";
 import Footer from "../components/Footer";
 import MusicGallery from "../components/MusicGallery";
 import CurveBackground from "../components/LandingLeftCurve";
+import LandingLeftCurve from "../components/LandingLeftCurve";
 function Gallery() {
   return (
     <>
@@ -18,6 +19,7 @@ function Gallery() {
         subtitle={"Capturing moments of musical joy, growth, and achievement"}
       />
       {/* <OtherHero mobileImg={frame1} /> */}
+      
       
       <MusicGallery />
 

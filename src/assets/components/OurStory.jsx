@@ -48,21 +48,28 @@ function OurStory() {
                   Located in Kalutara, Sri Lanka, the institute provides
                   structured and professional training in Classical Guitar,
                   Piano, Violin, Vocal, Electronic Keyboard, Acoustic Guitar,
-                  Recorder, and Theory of Music. 
+                  Recorder, and Theory of Music.
                 </p>
                 <br />
                 <div className="w-full h-4 hidden xl:flex "></div>
                 <p className="hidden xl:flex">
-                  Under the guidance of Dr. K. K.
-                  Prasanna Sanjeewa, D. Mus. Hons. (Sri Lanka), ATCL (UK), LTCL
-                  (UK), the institute has grown into a respected center for
-                  musical learning, preparing students for international music
-                  examinations, professional performance opportunities, and
-                  advanced musical studies.
+                  Under the guidance of Dr. K. K. Prasanna Sanjeewa, D. Mus.
+                  Hons. (Sri Lanka), ATCL (UK), LTCL (UK), the institute has
+                  grown into a respected center for musical learning, preparing
+                  students for international music examinations, professional
+                  performance opportunities, and advanced musical studies.
                 </p>
               </div>
-              <Link to="/aboutus" className="">
-                <Button1 buttonname="View About Us"  />
+              {/* <Link to="/aboutus" className="">
+                <Button1 buttonname="View About Us"/>
+              </Link> */}
+
+              <Link to="/aboutus">
+                <Button1 buttonname="View About Us" className="
+                relative overflow-hidden group w-[150px] h-[35px] xl:w-4/12 xl:h-[45px] rounded-lg border border-[#454545] transition-all duration-300 hover:border-[#ffc107] hover:shadow-[0_0_18px_rgba(255,193,7,0.9)]
+                "
+           
+                 />
               </Link>
             </div>
           </div>

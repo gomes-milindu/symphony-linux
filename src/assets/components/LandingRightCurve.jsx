@@ -1,6 +1,6 @@
 const LandingRightCurve = () => {
   return (
-    <div className="bg-red-500 w-full relative -z-10">
+    <div className="hidden md:inline-flex w-full relative -z-10">
       <img
         src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Vector%201.png"
         alt="curve"

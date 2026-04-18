@@ -1,3 +1,5 @@
+import LandingLeftCurve from "./LandingLeftCurve";
+
 export default function MusicGallery() {
   const imgs = [
     "https://images.unsplash.com/photo-1511379938547-c1f69419868d",
@@ -13,7 +15,9 @@ export default function MusicGallery() {
   ];
 
   return (
+    
     <div className="min-h-screen bg-white p-4 sm:p-8 mb-5">
+      
       <div className="max-w-6xl mx-auto">
 
         {/* 📱 Mobile */}
