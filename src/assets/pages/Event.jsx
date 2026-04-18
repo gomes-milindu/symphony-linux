@@ -1,6 +1,9 @@
 
+import AboutLeftCurve from "../components/AboutLeftCurve";
+import EventsLeftCurve from "../components/EventLeftCurve";
 import EventsSection from "../components/EventSection";
 import Footer from "../components/Footer";
+import LandingLeftCurve from "../components/LandingLeftCurve";
 import OtherHero from "../components/OtherHero";
 import OtherNavbar from "../components/OtherNavbar";
 
@@ -20,7 +23,8 @@ function Event() {
       title={"Events"} 
       subtitle={"Capturing moments of musical joy, growth, and achievement"}/>
       
-      
+      {/* <AboutLeftCurve /> */}
+    <EventsLeftCurve />
       {/* <EventsSection/> */}
       <EventsSection />
       

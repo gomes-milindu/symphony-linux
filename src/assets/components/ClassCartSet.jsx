@@ -32,7 +32,7 @@ export default function ClassCartSet() {
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
-            speed={800}
+            speed={900}
             breakpoints={{
               // mobile: 1 card
               0: {

@@ -44,3 +44,41 @@ body {
   transform: scale(1.08);
   z-index: 10;
 }
+
+.event-swiper {
+  overflow: visible;
+}
+
+.event-swiper .swiper-slide {
+  transform: scale(0.8);
+  opacity: 0.6;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+
+
+.event-swiper .swiper-slide-prev,
+.event-swiper .swiper-slide-next {
+  transform: scale(0.85);
+  opacity: 0.8;
+}
+
+.event-swiper {
+  overflow: visible;
+}
+
+.event-swiper .swiper-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.event-swiper .swiper-slide {
+  transform: scale(0.75);
+  opacity: 0.5;
+}
+
+/* center */
+.event-swiper .swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+}
+

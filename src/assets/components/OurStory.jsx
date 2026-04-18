@@ -1,5 +1,6 @@
 import Topic from "../components/Topic";
 import Button1 from "../components/Button1";
+import { Link } from "react-router-dom";
 
 function OurStory() {
   return (
@@ -60,9 +61,9 @@ function OurStory() {
                   advanced musical studies.
                 </p>
               </div>
-              <div className="">
-                <Button1 buttonname="View About Us" />
-              </div>
+              <Link to="/aboutus" className="">
+                <Button1 buttonname="View About Us"  />
+              </Link>
             </div>
           </div>
 

@@ -16,14 +16,14 @@ function FooterDesktop() {
       {/* Desktop */}
       <section className="hidden xl:inline w-full h-auto">
         <div
-          className="w-full h-[790px] bg-no-repeat bg-contain bg-bottom flex flex-col justify-center items-center gap-5"
+          className="w-full h-[800px] bg-no-repeat bg-contain bg-bottom flex flex-col justify-center items-center gap-5"
           style={{
             backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/webedit.png')`,
             backgroundSize: "100% auto",
           }}
         >
-          <div className="w-10/12 h-[180px]"></div>
-          <div className="w-10/12 h-[400px] flex flex-row p-15 justify-around items-start">
+          <div className=" w-10/12 h-[270px]"></div>
+          <div className="w-10/12 h-[350px] flex flex-row p-15 justify-around items-start">
             {/* Left Side */}
             <div className="w-fit h-fit flex flex-col justify-center items-center gap-4">
               <div
