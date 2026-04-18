@@ -76,13 +76,13 @@ function UpComingCard(props) {
  
             {/* DateTime - Mobile */}
             <div className="flex items-center gap-3">
-              <Calendar className="w-5 h-5 text-amber-600 flex-shrink-0" />
+              <Calendar className="w-5 h-5 text-[#ff9900] flex-shrink-0" />
               <p className="text-sm text-gray-600">{props.eventDateTime}</p>
             </div>
  
             {/* Location - Mobile */}
             <div className="flex items-center gap-3">
-              <MapPin className="w-5 h-5 text-amber-600 flex-shrink-0" />
+              <MapPin className="w-5 h-5 text-[#ff9900] flex-shrink-0" />
               <p className="text-sm text-gray-600">{props.eventLocation}</p>
             </div>
  
@@ -113,13 +113,13 @@ function UpComingCard(props) {
  
               {/* DateTime - Tablet */}
               <div className="flex items-center gap-3">
-                <Calendar className="w-4 h-4 text-amber-600 flex-shrink-0" />
+                <Calendar className="w-4 h-4 text-[#ff9900] flex-shrink-0" />
                 <p className="text-sm text-gray-600">{props.eventDateTime}</p>
               </div>
  
               {/* Location - Tablet */}
               <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-amber-600 flex-shrink-0" />
+                <MapPin className="w-4 h-4 text-[#ff9900] flex-shrink-0" />
                 <p className="text-sm text-gray-600">{props.eventLocation}</p>
               </div>
             </div>
@@ -151,13 +151,13 @@ function UpComingCard(props) {
  
               {/* DateTime - Desktop */}
               <div className="flex items-center gap-3">
-                <Calendar className="w-5 h-5 text-amber-600 flex-shrink-0" />
+                <Calendar className="w-5 h-5 text-[#ff9900] flex-shrink-0" />
                 <p className="text-base text-gray-600">{props.eventDateTime}</p>
               </div>
  
               {/* Location - Desktop */}
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-amber-600 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-[#ff9900] flex-shrink-0" />
                 <p className="text-base text-gray-600">{props.eventLocation}</p>
               </div>
             </div>

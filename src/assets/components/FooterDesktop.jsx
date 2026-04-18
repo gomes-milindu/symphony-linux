@@ -1,14 +1,8 @@
-
-
-
-
-
 // import fb from "../../assets/footer/fb.png";
 // import insta from "../../assets/footer/insta.png";
 // import twitter from "../../assets/footer/twitter.png";
 // import youtube from "../../assets/footer/youtube.png";
 import { Link } from "react-router-dom";
-
 
 function FooterDesktop() {
   return (
@@ -51,21 +45,27 @@ function FooterDesktop() {
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')` }}
+                      style={{
+                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')`,
+                      }}
                     ></div>
                     <div className="">info@harmonymusic.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')` }}
+                      style={{
+                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')`,
+                      }}
                     ></div>
                     <div>+1 (555) 123-4567</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')` }}
+                      style={{
+                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')`,
+                      }}
                     ></div>
                     <div className="">
                       123 Music Avenue, Harmony City, MC 12345
@@ -78,19 +78,27 @@ function FooterDesktop() {
                 <div className="flex flex-row gap-5">
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/fb.png')` }}
+                    style={{
+                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/fb.png')`,
+                    }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/insta.png')` }}
+                    style={{
+                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/insta.png')`,
+                    }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                   style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/twitter.png')` }}
+                    style={{
+                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/twitter.png')`,
+                    }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/youtube.png')` }}
+                    style={{
+                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/youtube.png')`,
+                    }}
                   ></div>
                 </div>
               </div>
@@ -120,6 +128,23 @@ function FooterDesktop() {
                     Contact Us
                   </Link>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="min-w-7xl h-25 mt-10">
+            <div className="border-t border-white/20 pt-4 md:pt-5">
+              <div className="flex flex-col items-center justify-center gap-2 text-center">
+                <p className="text-white/50 text-[12px] font-extralight  lg:text-[13px] leading-relaxed tracking-wide">
+                  Copyright © 2026 Symphony Music Institute
+                </p>
+
+                <p className="text-white/50 text-[11px]  lg:text-[12px] leading-relaxed">
+                  Implemented by{" "}
+                  <span className="font-extralight text-white/50">
+                    Threads Software Solutions
+                  </span>
+                </p>
               </div>
             </div>
           </div>
