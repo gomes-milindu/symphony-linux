@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Beacon Aesthetic';
+  src: url('./assets/fonts/BeaconAesthetic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme{
+
+    --font-primary: 'Beacon Aesthetic', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
+    /* font-colors */
+    --color-primary: #e08a00;
+    --color-secondary: #4A5565;
+
+    --breakpoint-xsm: 430px;  /* custom small breakpoint */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+
+body {
+  font-family: 'Beacon Aesthetic', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+.swiper-slide .swiper-scale-wrapper {
+  transform: scale(0.9);
+  transition: transform 0.5s ease;
+}
+
+.swiper-slide-active .swiper-scale-wrapper {
+  transform: scale(1.08);
+  z-index: 10;
+}
+
+.event-swiper {
+  overflow: visible;
+}
+
+.event-swiper .swiper-slide {
+  transform: scale(0.8);
+  opacity: 0.6;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+
+
+.event-swiper .swiper-slide-prev,
+.event-swiper .swiper-slide-next {
+  transform: scale(0.85);
+  opacity: 0.8;
+}
+
+.event-swiper {
+  overflow: visible;
+}
+
+.event-swiper .swiper-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.event-swiper .swiper-slide {
+  transform: scale(0.75);
+  opacity: 0.5;
+}
+
+/* center */
+.event-swiper .swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+
