@@ -57,41 +57,41 @@ export default function ClassCard({
         </div>
 
         {/* Meta Info Row */}
-        <div className="flex items-center gap-6 mb-6 flex-wrap">
-          <div className="flex flex-col items-start">
-            <div className="flex items-center gap-1.5 text-[#F6C000] mb-1">
-              <Clock className="w-[18px] h-[18px]" />
-              <span className="text-[13px] font-secondary text-[#6B7280] font-normal">
+        <div className="flex justify-between items-start gap-2 mb-6 flex-wrap w-full pr-2">
+          <div className="flex items-start gap-2.5">
+            <Clock className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+            <div className="flex flex-col">
+              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
                 Duration
               </span>
+              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+                {duration}
+              </span>
             </div>
-            <span className="text-[15px] font-secondary font-medium text-[#374151]">
-              {duration}
-            </span>
           </div>
 
-          <div className="flex flex-col items-start">
-            <div className="flex items-center gap-1.5 text-[#F6C000] mb-1">
-              <Users className="w-[18px] h-[18px]" />
-              <span className="text-[13px] font-secondary text-[#6B7280] font-normal">
+          <div className="flex items-start gap-2.5">
+            <Users className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+            <div className="flex flex-col">
+              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
                 Levels
               </span>
-            </div>
-            <span className="text-[15px] font-secondary font-medium text-[#374151]">
-              {levels}
-            </span>
-          </div>
-
-          <div className="flex flex-col items-start">
-            <div className="flex items-center gap-1.5 text-[#F6C000] mb-1">
-              <Star className="w-[18px] h-[18px]" />
-              <span className="text-[13px] font-secondary text-[#6B7280] font-normal">
-                Type
+              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+                {levels}
               </span>
             </div>
-            <span className="text-[15px] font-secondary font-medium text-[#374151]">
-              {type}
-            </span>
+          </div>
+
+          <div className="flex items-start gap-2.5">
+            <Star className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+            <div className="flex flex-col">
+              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
+                Type
+              </span>
+              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+                {type}
+              </span>
+            </div>
           </div>
         </div>
 
