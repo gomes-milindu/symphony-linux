@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import OtherHero from "../components/OtherHero";
 import OtherNavbar from "../components/OtherNavbar";
+import ClassCardSection from "../components/ClassCardSection";
 
 function Classes() {
   return (
@@ -15,6 +16,8 @@ function Classes() {
         subtitle={"Capturing moments of musical joy, growth, and achievement"}
       />
       {/* <OtherHero mobileImg={frame1} /> */}
+
+      <ClassCardSection />
 
       <Footer />
     </>
