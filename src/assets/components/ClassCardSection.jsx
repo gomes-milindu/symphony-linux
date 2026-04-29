@@ -3,84 +3,61 @@ import ClassCard from "./ClassCard";
 import { ClassesPageData } from "../data/ClassesPageData";
 
 export default function ClassCardSection() {
-  const [activeFilter, setActiveFilter] = useState("All Classes");
   const [selectedClass, setSelectedClass] = useState("");
 
-  // Get unique categories for filter
-  const categories = useMemo(() => {
-    const cats = [...new Set(ClassesPageData.map((item) => item.category))];
-    return ["All Classes", ...cats];
-  }, []);
-
-  // Filter classes based on active filter and dropdown selection
+  // Filter classes based on dropdown selection
   const filteredClasses = useMemo(() => {
     let filtered = ClassesPageData;
-
-    if (activeFilter !== "All Classes") {
-      filtered = filtered.filter((item) => item.category === activeFilter);
-    }
 
     if (selectedClass) {
       filtered = filtered.filter((item) => item.title === selectedClass);
     }
 
     return filtered;
-  }, [activeFilter, selectedClass]);
+  }, [selectedClass]);
 
   // Get unique class titles for dropdown
   const classTitles = useMemo(() => {
-    const currentData =
-      activeFilter !== "All Classes"
-        ? ClassesPageData.filter((item) => item.category === activeFilter)
-        : ClassesPageData;
-    return [...new Set(currentData.map((item) => item.title))];
-  }, [activeFilter]);
-
-  const handleFilterClick = (filter) => {
-    setActiveFilter(filter);
-    setSelectedClass("");
-  };
+    return [...new Set(ClassesPageData.map((item) => item.title))];
+  }, []);
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 bg-white">
+    <section className="w-full py-12 sm:py-16 md:py-20 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Filter Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10 sm:mb-14">
-          {/* Category Buttons */}
-          <div className="flex flex-wrap items-center gap-2">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => handleFilterClick(cat)}
-                className={`px-5 py-2.5 rounded-full text-sm font-secondary font-semibold transition-all duration-300 cursor-pointer border ${
-                  activeFilter === cat
-                    ? "bg-slate-800 text-white border-slate-800 shadow-md"
-                    : "bg-white text-slate-600 border-slate-300 hover:border-amber-400 hover:text-amber-600 hover:bg-amber-50"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </div>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-10 sm:mb-14">
+          {/* All Classes Tab */}
+          <button
+            onClick={() => setSelectedClass("")}
+            className={`pb-1 text-[16px] font-secondary font-semibold transition-all duration-300 cursor-pointer border-b-[1.5px] ${
+              selectedClass === ""
+                ? "text-[#2B2B2B] border-[#2B2B2B]"
+                : "text-gray-500 border-transparent hover:text-[#2B2B2B]"
+            }`}
+          >
+            All Classes
+          </button>
 
           {/* Dropdown Select */}
           <div className="relative">
             <select
               value={selectedClass}
               onChange={(e) => setSelectedClass(e.target.value)}
-              className="appearance-none bg-white border border-slate-300 text-slate-600 text-sm font-secondary font-medium rounded-full px-5 py-2.5 pr-10 cursor-pointer transition-all duration-300 hover:border-amber-400 focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-100 min-w-[180px]"
+              className={`appearance-none bg-white border border-gray-300 text-[15px] font-secondary rounded-[6px] px-4 py-2 pr-10 cursor-pointer transition-all duration-300 hover:border-gray-400 focus:outline-none focus:border-amber-400 min-w-[260px] ${
+                selectedClass === "" ? "text-[#9CA3AF]" : "text-[#2B2B2B] font-medium"
+              }`}
             >
-              <option value="">Select Class</option>
+              <option value="" className="text-gray-400">Select Class</option>
               {classTitles.map((title) => (
-                <option key={title} value={title}>
+                <option key={title} value={title} className="text-[#2B2B2B]">
                   {title}
                 </option>
               ))}
             </select>
             {/* Dropdown Arrow */}
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-4">
+            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
               <svg
-                className="w-4 h-4 text-slate-400"
+                className="w-4 h-4 text-gray-500"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -88,7 +65,7 @@ export default function ClassCardSection() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  strokeWidth={2}
+                  strokeWidth={1.5}
                   d="M19 9l-7 7-7-7"
                 />
               </svg>
@@ -136,10 +113,7 @@ export default function ClassCardSection() {
               No classes found for this filter.
             </p>
             <button
-              onClick={() => {
-                setActiveFilter("All Classes");
-                setSelectedClass("");
-              }}
+              onClick={() => setSelectedClass("")}
               className="mt-3 text-amber-500 font-secondary text-sm font-semibold hover:text-amber-600 transition-colors cursor-pointer"
             >
               Clear filters
