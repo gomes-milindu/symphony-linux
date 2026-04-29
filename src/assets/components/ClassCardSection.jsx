@@ -37,14 +37,14 @@ export default function ClassCardSection() {
   }, []);
 
   return (
-    <section className="w-full py-12 sm:py-16 md:py-20 bg-transparent">
+    <section className="relative w-full pb-12 pt-4 sm:pb-16 md:pb-20 bg-transparent z-10 -mt-[70px] sm:-mt-[80px] md:-mt-[130px] xl:-mt-[200px] 2xl:-mt-[240px]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Filter Bar */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-10 sm:mb-14">
+        <div className="flex flex-row items-center justify-between sm:justify-center gap-4 sm:gap-8 mb-8 sm:mb-14 w-full">
           {/* All Classes Tab */}
           <button
             onClick={() => setSelectedClass("")}
-            className={`pb-1 text-[16px] font-secondary font-semibold transition-all duration-300 cursor-pointer border-b-[1.5px] ${
+            className={`whitespace-nowrap pb-1 text-[15px] sm:text-[16px] font-secondary font-semibold transition-all duration-300 cursor-pointer border-b-[1.5px] ${
               selectedClass === ""
                 ? "text-[#2B2B2B] border-[#2B2B2B]"
                 : "text-gray-500 border-transparent hover:text-[#2B2B2B]"
@@ -54,10 +54,10 @@ export default function ClassCardSection() {
           </button>
 
           {/* Custom Dropdown Select */}
-          <div className="relative" ref={dropdownRef}>
+          <div className="relative flex-1 sm:flex-none sm:min-w-[260px]" ref={dropdownRef}>
             <div
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className={`flex items-center justify-between bg-white border border-gray-300 rounded-[6px] px-4 py-2 cursor-pointer transition-all duration-300 min-w-[260px] ${
+              className={`flex items-center justify-between bg-white border border-gray-300 rounded-[6px] px-3 sm:px-4 py-2 cursor-pointer transition-all duration-300 w-full ${
                 isDropdownOpen ? "border-gray-400 shadow-sm" : "hover:border-gray-400"
               }`}
             >
