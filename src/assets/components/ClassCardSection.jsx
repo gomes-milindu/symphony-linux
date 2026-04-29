@@ -1,9 +1,24 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useRef, useEffect } from "react";
 import ClassCard from "./ClassCard";
 import { ClassesPageData } from "../data/ClassesPageData";
 
 export default function ClassCardSection() {
   const [selectedClass, setSelectedClass] = useState("");
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   // Filter classes based on dropdown selection
   const filteredClasses = useMemo(() => {
@@ -38,26 +53,23 @@ export default function ClassCardSection() {
             All Classes
           </button>
 
-          {/* Dropdown Select */}
-          <div className="relative">
-            <select
-              value={selectedClass}
-              onChange={(e) => setSelectedClass(e.target.value)}
-              className={`appearance-none bg-white border border-gray-300 text-[15px] font-secondary rounded-[6px] px-4 py-2 pr-10 cursor-pointer transition-all duration-300 hover:border-gray-400 focus:outline-none focus:border-amber-400 min-w-[260px] ${
-                selectedClass === "" ? "text-[#9CA3AF]" : "text-[#2B2B2B] font-medium"
+          {/* Custom Dropdown Select */}
+          <div className="relative" ref={dropdownRef}>
+            <div
+              onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+              className={`flex items-center justify-between bg-white border border-gray-300 rounded-[6px] px-4 py-2 cursor-pointer transition-all duration-300 min-w-[260px] ${
+                isDropdownOpen ? "border-gray-400 shadow-sm" : "hover:border-gray-400"
               }`}
             >
-              <option value="" className="text-gray-400">Select Class</option>
-              {classTitles.map((title) => (
-                <option key={title} value={title} className="text-[#2B2B2B]">
-                  {title}
-                </option>
-              ))}
-            </select>
-            {/* Dropdown Arrow */}
-            <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
+              <span className={`text-[15px] font-secondary select-none ${
+                selectedClass === "" ? "text-[#9CA3AF]" : "text-[#2B2B2B] font-medium"
+              }`}>
+                {selectedClass === "" ? "Select Class" : selectedClass}
+              </span>
               <svg
-                className="w-4 h-4 text-gray-500"
+                className={`w-4 h-4 text-gray-500 transition-transform duration-300 ${
+                  isDropdownOpen ? "rotate-180" : ""
+                }`}
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -70,6 +82,28 @@ export default function ClassCardSection() {
                 />
               </svg>
             </div>
+
+            {/* Dropdown Menu */}
+            {isDropdownOpen && (
+              <div className="absolute top-[calc(100%+4px)] left-0 w-full bg-white border border-gray-200 rounded-[6px] shadow-lg z-50 overflow-hidden py-1">
+                {classTitles.map((title) => (
+                  <div
+                    key={title}
+                    onClick={() => {
+                      setSelectedClass(title);
+                      setIsDropdownOpen(false);
+                    }}
+                    className={`px-4 py-2.5 text-[15px] font-secondary cursor-pointer transition-colors ${
+                      selectedClass === title
+                        ? "bg-[#FFF4D2] text-[#2B2B2B]"
+                        : "text-[#4B5563] hover:bg-[#FFF4D2] hover:text-[#2B2B2B]"
+                    }`}
+                  >
+                    {title}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 

@@ -4,7 +4,7 @@ export const ClassesPageData = [
     image:
       "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
     category: "Guitar",
-    title: "Guitar Master Class",
+    title: "Guitar Class",
     level: "Beginner",
     duration: "45 min / 60 min",
     levels: "3 Levels",
@@ -20,19 +20,19 @@ export const ClassesPageData = [
   {
     id: 2,
     image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
-    category: "Guitar",
-    title: "Guitar Master Class",
+      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+    category: "Piano",
+    title: "Piano Class",
     level: "Beginner",
     duration: "45 min / 60 min",
-    levels: "3 Levels",
-    type: "Electric Guitar",
+    levels: "4 Levels",
+    type: "Classical Piano",
     description:
-      "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
+      "Learn piano from the ground up with lessons covering music theory, sight-reading, and performance techniques for all genres.",
     features: [
-      "Individual and group lessons",
-      "Music theory fundamentals",
-      "Popular songs and classical pieces",
+      "Hands-on keyboard training",
+      "Music theory and composition",
+      "Classical and contemporary pieces",
     ],
   },
   {
@@ -40,7 +40,7 @@ export const ClassesPageData = [
     image:
       "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Violine.jpg",
     category: "Violin",
-    title: "Violin Essentials",
+    title: "Violin Class",
     level: "Intermediate",
     duration: "60 min / 90 min",
     levels: "5 Levels",
@@ -56,55 +56,37 @@ export const ClassesPageData = [
   {
     id: 4,
     image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
-    category: "Keyboard",
-    title: "Piano & Keyboard",
+      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
+    category: "Drum",
+    title: "Drum Class",
     level: "Beginner",
     duration: "45 min / 60 min",
-    levels: "4 Levels",
-    type: "Classical Piano",
+    levels: "3 Levels",
+    type: "Acoustic Drums",
     description:
-      "Learn piano from the ground up with lessons covering music theory, sight-reading, and performance techniques for all genres.",
+      "Learn rhythm and coordination with our drum classes covering basic beats, fills, and advanced rhythmic patterns.",
     features: [
-      "Hands-on keyboard training",
-      "Music theory and composition",
-      "Classical and contemporary pieces",
+      "Rhythm and timing exercises",
+      "Coordination development",
+      "Play along with backing tracks",
     ],
   },
   {
     id: 5,
     image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
-    category: "Guitar",
-    title: "Acoustic Guitar Basics",
-    level: "Beginner",
-    duration: "45 min / 60 min",
-    levels: "3 Levels",
-    type: "Acoustic Guitar",
-    description:
-      "Start your musical journey with acoustic guitar fundamentals including strumming patterns, fingerpicking, and chord progressions.",
-    features: [
-      "Individual and group lessons",
-      "Music theory fundamentals",
-      "Popular songs and classical pieces",
-    ],
-  },
-  {
-    id: 6,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Violine.jpg",
-    category: "Violin",
-    title: "Advanced Violin",
+      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+    category: "Keyboard",
+    title: "Key Board Class",
     level: "Advanced",
-    duration: "90 min / 120 min",
+    duration: "60 min / 90 min",
     levels: "6 Levels",
-    type: "Performance Violin",
+    type: "Digital Keyboard",
     description:
-      "Take your violin mastery to the next level with advanced techniques, orchestral repertoire, and solo performance coaching.",
+      "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
     features: [
-      "Advanced bowing and vibrato",
-      "Orchestral and chamber music",
-      "Performance and stage presence",
+      "Synthesizer basics",
+      "MIDI and sequencing",
+      "Live performance setups",
     ],
   },
 ];
