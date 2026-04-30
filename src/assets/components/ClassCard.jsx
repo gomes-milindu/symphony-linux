@@ -27,68 +27,68 @@ export default function ClassCard({
   };
 
   return (
-    <div className="class-card group bg-white rounded-[16px] border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 cursor-pointer">
+    <div className="class-card group md:w-7/8 xl:w-12/11 bg-white rounded-[12px] border border-[#454545]/30 p-3 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#FFC107] cursor-pointer">
       {/* Image Section */}
-      <div className="relative overflow-hidden h-[240px] p-2 pb-0">
+      <div className="relative overflow-hidden w-full md:h-[275px] xl:h-[200px] rounded-[10px]">
         <img
           src={image}
           alt={title}
-          className="w-full h-full object-cover rounded-t-[12px] transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
 
         {/* Category Badge */}
-        <div className="absolute top-6 right-6 bg-black/20 backdrop-blur-sm text-white text-[13px] font-secondary px-4 py-1 rounded-full border border-white/50">
+        <div className="absolute top-4 right-4 bg-black/40 backdrop-blur-sm text-white text-[12px] font-secondary px-3 py-1 rounded-full border border-white/40 shadow-sm">
           {category}
         </div>
       </div>
 
       {/* Content Section */}
-      <div className="p-6">
+      <div className="mt-4 px-1">
         {/* Title + Level Row */}
-        <div className="flex items-center justify-between mb-5">
-          <h3 className="font-secondary text-[22px] font-bold text-[#2B2B2B] leading-tight">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="font-secondary md:text-[1.25rem] xl:text-[1.15rem] font-bold text-[#454545] leading-tight">
             {title}
           </h3>
           <span
-            className={`text-[16px] font-medium font-secondary px-4 py-1 rounded-full border bg-white ${levelColor()}`}
+            className={`text-[13px] font-medium font-secondary px-3 py-0.5 rounded-full border bg-white ${levelColor()}`}
           >
             {level}
           </span>
         </div>
 
         {/* Meta Info Row */}
-        <div className="flex justify-between items-start gap-2 mb-6 flex-wrap w-full pr-2">
-          <div className="flex items-start gap-2.5">
-            <Clock className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+        <div className="flex justify-between items-start gap-2 mb-4 flex-wrap w-full">
+          <div className="flex items-start gap-2">
+            <Clock className="w-[16px] h-[16px] text-[#F6C000] mt-[1px]" />
             <div className="flex flex-col">
-              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
+              <span className="text-[11px] font-secondary text-[#6B7280] font-normal mb-0.5">
                 Duration
               </span>
-              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+              <span className="text-[13px] font-secondary font-medium text-[#454545]">
                 {duration}
               </span>
             </div>
           </div>
 
-          <div className="flex items-start gap-2.5">
-            <Users className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+          <div className="flex items-start gap-2">
+            <Users className="w-[16px] h-[16px] text-[#F6C000] mt-[1px]" />
             <div className="flex flex-col">
-              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
+              <span className="text-[11px] font-secondary text-[#6B7280] font-normal mb-0.5">
                 Levels
               </span>
-              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+              <span className="text-[13px] font-secondary font-medium text-[#454545]">
                 {levels}
               </span>
             </div>
           </div>
 
-          <div className="flex items-start gap-2.5">
-            <Star className="w-[18px] h-[18px] text-[#F6C000] mt-[1px]" />
+          <div className="flex items-start gap-2">
+            <Star className="w-[16px] h-[16px] text-[#F6C000] mt-[1px]" />
             <div className="flex flex-col">
-              <span className="text-[12px] font-secondary text-[#6B7280] font-normal mb-0.5">
+              <span className="text-[11px] font-secondary text-[#6B7280] font-normal mb-0.5">
                 Type
               </span>
-              <span className="text-[14px] font-secondary font-medium text-[#374151]">
+              <span className="text-[13px] font-secondary font-medium text-[#454545]">
                 {type}
               </span>
             </div>
@@ -96,17 +96,17 @@ export default function ClassCard({
         </div>
 
         {/* Description */}
-        <p className="text-[16px] font-secondary text-[#4B5563] leading-relaxed mb-6">
+        <p className="text-[0.9rem] font-secondary text-[#454545] leading-relaxed mb-5">
           {description}
         </p>
 
         {/* Features List */}
-        <div className="space-y-3.5">
+        <div className="space-y-2 pb-1">
           {features &&
             features.map((feature, index) => (
-              <div key={index} className="flex items-center gap-3">
-                <CheckSquare className="w-5 h-5 text-[#F6C000] shrink-0" />
-                <span className="text-[16px] font-secondary text-[#374151]">
+              <div key={index} className="flex items-start gap-2.5">
+                <CheckSquare className="w-4 h-4 text-[#F6C000] shrink-0 mt-[3px]" />
+                <span className="text-[0.9rem] font-secondary text-[#454545]">
                   {feature}
                 </span>
               </div>

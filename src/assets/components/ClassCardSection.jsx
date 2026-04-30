@@ -38,9 +38,9 @@ export default function ClassCardSection() {
 
   return (
     <section className="relative w-full pb-12 pt-4 sm:pb-16 md:pb-20 bg-transparent z-10 -mt-[70px] sm:-mt-[80px] md:-mt-[130px] xl:-mt-[200px] 2xl:-mt-[240px]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full xl:w-8/12 mx-auto px-4 sm:px-6 lg:px-8 xl:px-0">
         {/* Filter Bar */}
-        <div className="flex flex-row items-center justify-between sm:justify-center gap-4 sm:gap-8 mb-8 sm:mb-14 w-full">
+        <div className="flex flex-row items-center justify-between sm:justify-center gap-4 sm:gap-8 mb-8 sm:mb-14 w-full xl:px-[8%]">
           {/* All Classes Tab */}
           <button
             onClick={() => setSelectedClass("")}
@@ -108,20 +108,35 @@ export default function ClassCardSection() {
         </div>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        {/* Mobile/Tablet Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:hidden gap-6 lg:gap-8">
           {filteredClasses.map((item) => (
             <ClassCard
               key={item.id}
-              image={item.image}
-              category={item.category}
-              title={item.title}
-              level={item.level}
-              duration={item.duration}
-              levels={item.levels}
-              type={item.type}
-              description={item.description}
-              features={item.features}
+              {...item}
             />
+          ))}
+        </div>
+
+        {/* Desktop Grid (Matches EventSection exactly) */}
+        <div className="hidden xl:grid xl:grid-cols-12 gap-y-15">
+          {filteredClasses.reduce((rows, item, index) => {
+            if (index % 2 === 0) {
+              rows.push(filteredClasses.slice(index, index + 2));
+            }
+            return rows;
+          }, []).map((row, rowIndex) => (
+            <div key={rowIndex} className="col-span-12 grid grid-cols-12 gap-15">
+              <div className="col-span-1" />
+
+              {row.map((item) => (
+                <div key={item.id} className="col-span-5">
+                  <ClassCard {...item} />
+                </div>
+              ))}
+
+              <div className="col-span-1" />
+            </div>
           ))}
         </div>
 
