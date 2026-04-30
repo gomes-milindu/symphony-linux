@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Clock, Users, Star, CheckSquare } from "lucide-react";
 
 export default function ClassCard({
@@ -12,6 +12,8 @@ export default function ClassCard({
   description,
   features,
 }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   // Level badge color
   const levelColor = () => {
     switch (level) {
@@ -27,9 +29,12 @@ export default function ClassCard({
   };
 
   return (
-    <div className="class-card group md:w-7/8 xl:w-12/11 bg-white rounded-[12px] border border-[#454545]/30 p-3 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#FFC107] cursor-pointer">
+    <div 
+      className="class-card group bg-white rounded-[12px] border border-[#454545]/30 p-3 overflow-hidden transition-all duration-300 hover:shadow-lg hover:border-[#FFC107] cursor-pointer md:w-7/8 xl:w-12/11"
+      onClick={() => window.innerWidth < 768 && setIsExpanded(!isExpanded)}
+    >
       {/* Image Section */}
-      <div className="relative overflow-hidden w-full md:h-[275px] xl:h-[200px] rounded-[10px]">
+      <div className="relative overflow-hidden w-full h-[200px] md:h-[275px] xl:h-[200px] rounded-[10px]">
         <img
           src={image}
           alt={title}
@@ -46,7 +51,7 @@ export default function ClassCard({
       <div className="mt-4 px-1">
         {/* Title + Level Row */}
         <div className="flex items-center justify-between mb-4">
-          <h3 className="font-secondary md:text-[1.25rem] xl:text-[1.15rem] font-bold text-[#454545] leading-tight">
+          <h3 className="font-secondary text-[1.125rem] md:text-[1.25rem] xl:text-[1.15rem] font-bold text-[#454545] leading-tight">
             {title}
           </h3>
           <span
@@ -95,22 +100,30 @@ export default function ClassCard({
           </div>
         </div>
 
-        {/* Description */}
-        <p className="text-[0.9rem] font-secondary text-[#454545] leading-relaxed mb-5">
-          {description}
-        </p>
+        {/* Expandable Content (Mobile Accordion) / Always visible (Desktop) */}
+        <div className={`${isExpanded ? "block" : "hidden"} md:block transition-all duration-300`}>
+          {/* Description */}
+          <p className="text-[0.9rem] font-secondary text-[#454545] leading-relaxed mb-5 mt-2 md:mt-0">
+            {description}
+          </p>
 
-        {/* Features List */}
-        <div className="space-y-2 pb-1">
-          {features &&
-            features.map((feature, index) => (
-              <div key={index} className="flex items-start gap-2.5">
-                <CheckSquare className="w-4 h-4 text-[#F6C000] shrink-0 mt-[3px]" />
-                <span className="text-[0.9rem] font-secondary text-[#454545]">
-                  {feature}
-                </span>
-              </div>
-            ))}
+          {/* Features List */}
+          <div className="space-y-2 pb-1">
+            {features &&
+              features.map((feature, index) => (
+                <div key={index} className="flex items-start gap-2.5">
+                  <CheckSquare className="w-4 h-4 text-[#F6C000] shrink-0 mt-[3px]" />
+                  <span className="text-[0.9rem] font-secondary text-[#454545]">
+                    {feature}
+                  </span>
+                </div>
+              ))}
+          </div>
+
+          {/* Enroll Now Button (Mobile Only) */}
+          <button className="w-full mt-5 h-[40px] bg-[#FFF4D2] text-[#2B2B2B] text-[0.875rem] font-medium rounded-lg md:hidden hover:bg-[#FDC700] transition-colors">
+            Enroll Now
+          </button>
         </div>
       </div>
     </div>
