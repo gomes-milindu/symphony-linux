@@ -108,8 +108,18 @@ export default function ClassCardSection() {
         </div>
 
         {/* Cards Grid */}
-        {/* Mobile/Tablet Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:hidden gap-6 lg:gap-8">
+        {/* ================= MOBILE ================= */}
+        <div className="w-[95%] mx-auto flex flex-col gap-10 md:hidden">
+          {filteredClasses.map((item) => (
+            <ClassCard
+              key={item.id}
+              {...item}
+            />
+          ))}
+        </div>
+
+        {/* ================= TABLET ================= */}
+        <div className="hidden md:grid md:grid-cols-2 w-full xl:hidden gap-16">
           {filteredClasses.map((item) => (
             <ClassCard
               key={item.id}
