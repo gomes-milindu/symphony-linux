@@ -104,7 +104,19 @@ function FooterMobile() {
             </div>
           </div>
 
-          
+          {/* Copyright */}
+          <div className="w-full px-6 mt-4">
+            <div className="border-t border-white/20 pt-4">
+              <div className="flex flex-col items-center justify-center gap-1">
+                <p className="text-[11px] text-white/50 text-center">
+                  Copyright © 2026 Symphony Music Institute
+                </p>
+                <p className="text-[11px] text-white/50 text-center">
+                  Implemented by Threads Software Solutions
+                </p>
+              </div>
+            </div>
+          </div>
 
         </div>
       </section>
