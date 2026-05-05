@@ -19,7 +19,7 @@ function FooterMobile() {
               <div
                 className="w-30 h-30"
                 style={{
-                  backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/FooterLogo.png')`,
+                  backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/12Asset%201%204.webp')`,
                   backgroundSize: "100% auto",
                 }}
               ></div>
@@ -43,7 +43,7 @@ function FooterMobile() {
                     <div className="flex flex-row gap-2">
                       <div
                         className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                        style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')` }}
+                        style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp')` }}
                       ></div>
                       <div className="text-[12px] text-[#99A1AF]">
                         info@harmonymusic.com
@@ -53,7 +53,7 @@ function FooterMobile() {
                       <div className="flex flex-row gap-2">
                         <div
                           className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                          style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')` }}
+                          style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/call.webp')` }}
                         ></div>
                         <div className="text-[12px] text-[#99A1AF]">
                           +1 (555) 123-4567
@@ -64,7 +64,7 @@ function FooterMobile() {
                       <div className="flex flex-row gap-2">
                         <div
                           className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                          style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')` }}
+                          style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/location.webp')` }}
                         ></div>
                         <div className="text-[12px] text-[#99A1AF]">
                           23 Music Avenue, Harmony City, MC 12345

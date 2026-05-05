@@ -61,7 +61,7 @@ function Header() {
         <div
           className="w-full aspect-[1.9692] absolute z-1 top-0 bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/mask.png)`,
+            backgroundImage: `url(https://xqrjcvdiomoxnutbvuha.supabase.co/storage/v1/object/public/Header-Symphony/Group%2012.webp)`,
             backgroundSize: "100% auto",
           }}
         >
@@ -69,7 +69,7 @@ function Header() {
           <div
             className="w-40 h-40 bg-cover bg-center bg-no-repeat m-10"
             style={{
-              backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/logo.png)`,
+              backgroundImage: `url(https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/12Asset%201%204.webp)`,
               backgroundSize: "100% auto",
             }}
           ></div>

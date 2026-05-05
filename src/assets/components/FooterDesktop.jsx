@@ -12,7 +12,7 @@ function FooterDesktop() {
         <div
           className="w-full h-[800px] bg-no-repeat bg-contain bg-bottom flex flex-col justify-center items-center gap-5"
           style={{
-            backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/webedit.png')`,
+            backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/Group%2013.webp')`,
             backgroundSize: "100% auto",
           }}
         >
@@ -23,7 +23,7 @@ function FooterDesktop() {
               <div
                 className="w-40 h-40 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/FooterLogo.png')`,
+                  backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/12Asset%201%204.webp')`,
                   backgroundSize: "100% auto",
                 }}
               ></div>
@@ -45,27 +45,21 @@ function FooterDesktop() {
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{
-                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')`,
-                      }}
+                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp')` }}
                     ></div>
                     <div className="">info@harmonymusic.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{
-                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')`,
-                      }}
+                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/call.webp')` }}
                     ></div>
                     <div>+1 (555) 123-4567</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{
-                        backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')`,
-                      }}
+                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/location.webp')` }}
                     ></div>
                     <div className="">
                       123 Music Avenue, Harmony City, MC 12345
@@ -78,27 +72,19 @@ function FooterDesktop() {
                 <div className="flex flex-row gap-5">
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{
-                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/fb.png')`,
-                    }}
+                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/fb.webp')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{
-                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/insta.png')`,
-                    }}
+                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{
-                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/twitter.png')`,
-                    }}
+                   style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{
-                      backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/youtube.png')`,
-                    }}
+                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp')` }}
                   ></div>
                 </div>
               </div>

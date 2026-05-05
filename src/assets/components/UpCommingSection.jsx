@@ -13,7 +13,7 @@ export default function UpComingSection() {
     {
       id: 1,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+        "https://unsplash.com/photos/stage-light-front-of-audience-NYrVisodQ2M",
       title: "Music Concert Extravaganza",
       dateTime: "Dec 15, 2023 | 7:00 PM",
       location: "Symphony Hall, Downtown",
