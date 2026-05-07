@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Footer } from "../data/AssetsLinks.js";
 
 function FooterMobile() {
   return (
@@ -8,7 +9,7 @@ function FooterMobile() {
         <div
           className="w-full aspect-[0.587/1] bg-no-repeat bg-contain bg-bottom"
           style={{
-            backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/FooterMobedit.png')`,
+            backgroundImage: `url('${Footer.Mobile_BG}')`,
             backgroundSize: "100% auto",
           }}
         >
@@ -19,7 +20,7 @@ function FooterMobile() {
               <div
                 className="w-30 h-30"
                 style={{
-                  backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/FooterLogo.png')`,
+                  backgroundImage: `url('${Footer.Mobile_LOGO}')`,
                   backgroundSize: "100% auto",
                 }}
               ></div>
@@ -43,7 +44,7 @@ function FooterMobile() {
                     <div className="flex flex-row gap-2">
                       <div
                         className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                        style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')` }}
+                        style={{ backgroundImage: `url('${Footer.Mobile_Email}')` }}
                       ></div>
                       <div className="text-[12px] text-[#99A1AF]">
                         info@harmonymusic.com
@@ -53,7 +54,7 @@ function FooterMobile() {
                       <div className="flex flex-row gap-2">
                         <div
                           className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                          style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')` }}
+                          style={{ backgroundImage: `url('${Footer.Mobile_Call}')` }}
                         ></div>
                         <div className="text-[12px] text-[#99A1AF]">
                           +1 (555) 123-4567
@@ -64,7 +65,7 @@ function FooterMobile() {
                       <div className="flex flex-row gap-2">
                         <div
                           className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                          style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')` }}
+                          style={{ backgroundImage: `url('${Footer.Mobile_Location}')` }}
                         ></div>
                         <div className="text-[12px] text-[#99A1AF]">
                           23 Music Avenue, Harmony City, MC 12345

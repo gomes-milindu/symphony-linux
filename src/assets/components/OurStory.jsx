@@ -1,6 +1,7 @@
 import Topic from "../components/Topic";
 import Button1 from "../components/Button1";
 import { Link } from "react-router-dom";
+import { LandingPage } from "../data/AssetsLinks.js";
 
 function OurStory() {
   return (
@@ -15,7 +16,7 @@ function OurStory() {
 
               <div className="xl:hidden w-full flex justify-center items-center -mt-12 md:-mt-16 ">
                 <img
-                  src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/StorySectionImg.png"
+                  src={LandingPage.OurStory_Image}
                   alt="Our Story"
                   className="w-full object-contain max-w-[320px] md:max-w-[600px]"
                 />
@@ -76,7 +77,7 @@ function OurStory() {
 
           <div className="w-full h-full  xl:w-6/12 hidden xl:flex object-cover ">
             <img
-              src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/StorySectionImg.png"
+              src="https://xqrjcvdiomoxnutbvuha.supabase.co/storage/v1/object/public/Our%20Story/music%201.webp"
               alt="Our Story"
               className="w-full object-contain max-w-full scale-125"
             />

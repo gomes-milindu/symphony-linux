@@ -1,6 +1,8 @@
+import { LandingPage } from "../data/AssetsLinks.js";
+
 export const EventsData = [
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+    pic: LandingPage.Event1,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",

@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import HomePageBtn from "./HomePageBtn";
+import { LandingPage } from "../data/AssetsLinks.js";
 
 
 
@@ -11,7 +12,7 @@ function Header() {
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Maskgroup2.png)`,
+            backgroundImage: `url(${LandingPage.Header_Mobile})`,
             backgroundSize: "100% auto",
           }}
         >
@@ -19,7 +20,7 @@ function Header() {
           <div
             className="w-30 h-30 bg-cover bg-center bg-no-repeat m-10"
             style={{
-              backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/logo.png)`,
+              backgroundImage: `url(${LandingPage.Header_Mobile_LOGO})`,
               backgroundSize: "100% auto",
             }}
           ></div>
@@ -35,7 +36,7 @@ function Header() {
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/maskTab.png)`,
+            backgroundImage: `url(${LandingPage.Header_Tablet})`,
             backgroundSize: "100% auto",
           }}
         >
@@ -45,7 +46,7 @@ function Header() {
              
             
             style={{
-              backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/logo.png)`,
+              backgroundImage: `url(${LandingPage.Header_Tablet_LOGO})`,
               backgroundSize: "100% auto",
             }}
           ></div>
@@ -61,7 +62,7 @@ function Header() {
         <div
           className="w-full aspect-[1.9692] absolute z-1 top-0 bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/mask.png)`,
+            backgroundImage: `url(${LandingPage.Header_Desktop})`,
             backgroundSize: "100% auto",
           }}
         >
@@ -69,7 +70,7 @@ function Header() {
           <div
             className="w-40 h-40 bg-cover bg-center bg-no-repeat m-10"
             style={{
-              backgroundImage: `url(https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/logo.png)`,
+              backgroundImage: `url(${LandingPage.Header_Desktop_LOGO})`,
               backgroundSize: "100% auto",
             }}
           ></div>

@@ -1,4 +1,4 @@
-
+import { LandingPage } from "../data/AssetsLinks.js";
 export default function LeftTopStudent() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function LeftTopStudent() {
           <div className="md:w-[20vw] w-[41vw]  flex justify-center items-center">
             <div className="flex flex-col text-[#454545] xl:gap-[1rem]">
               <p className="font-semibold xl:text-[24px] lg:text-[20px] md:text-[16px] sm:text-[26px] text-[18px] ">
-                CHANTHULI HANSARA 
+                Alex Jordon 
               </p>
               <div className=" xl:text-[16px] lg:text-[12px] md:text-[10px] sm:text-[16px] text-[12px] flex flex-col xl:gap-1">
                 <p>Student ID : ST002/2020</p>
@@ -20,7 +20,7 @@ export default function LeftTopStudent() {
         </div>
         <div className="">
           <img
-            src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/man.png"
+            src={LandingPage.LeftTopStudent}
             className="md:w-[23vw] w-[52vw] absolute bottom-0 left-0 object-cover"
           />
         </div>

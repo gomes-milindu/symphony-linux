@@ -1,5 +1,6 @@
 import React from "react";
-import { Calendar, Clock, MapPin, Music2 } from "lucide-react";
+import { Calendar, Clock, LandPlot, MapPin, Music2 } from "lucide-react";
+import { LandingPage } from "../data/AssetsLinks.js";
 
 export default function ClassCart({ image, grade, date, time, location }) {
   return (
@@ -22,7 +23,7 @@ export default function ClassCart({ image, grade, date, time, location }) {
           <div className="absolute bottom-3 right-3">
      
             <img
-            src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/guitar.png"
+            src={LandingPage.Badge}
             alt="Guitar class"
             className="w-10 h-10  object-contain"
           />
