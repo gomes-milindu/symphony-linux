@@ -1,4 +1,4 @@
-
+import { LandingPage } from "../data/AssetsLinks.js";
 export default function RightTopStudent() {
         return(
           <>
@@ -18,7 +18,7 @@ export default function RightTopStudent() {
                       </div>
                       <div  className="overflow-hidden">
                         <img 
-                        src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/girl.png" 
+                        src={LandingPage.RightTopStudent}
                         className="md:w-[21vw] w-[48vw]  aspect-[0.74] absolute bottom-0 right-0 object-cover object-top"/>
                       </div>
                 </div> 

@@ -1,7 +1,9 @@
+import { LandingPage } from "./AssetsLinks";
+
 export const ClassesData = [
     {
       id: 1,
-     image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
+     image: LandingPage.GuitarClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -9,7 +11,7 @@ export const ClassesData = [
     },
     {
       id: 2,
-       image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Violine.jpg",
+       image: LandingPage.ViolineClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -17,7 +19,7 @@ export const ClassesData = [
     },
     {
       id: 3,
-      image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+      image: LandingPage.KeyboardClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -25,7 +27,7 @@ export const ClassesData = [
     },
     {
       id: 4,
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
+    image: LandingPage.GuitarClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -33,7 +35,7 @@ export const ClassesData = [
     },
     {
       id: 5,
-       image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+       image: LandingPage.KeyboardClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -41,7 +43,7 @@ export const ClassesData = [
     },
     {
       id: 6,
-      image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+      image: LandingPage.KeyboardClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",
@@ -49,7 +51,7 @@ export const ClassesData = [
     },
     {
       id: 7,
-      image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+      image: LandingPage.KeyboardClass,
       grade: "Guitar Class - Grade 6",
       date: "December 15, 2025",
       time: "6:00 PM - 9:00 PM",

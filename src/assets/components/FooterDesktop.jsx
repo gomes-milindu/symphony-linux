@@ -3,6 +3,7 @@
 // import twitter from "../../assets/footer/twitter.png";
 // import youtube from "../../assets/footer/youtube.png";
 import { Link } from "react-router-dom";
+import { Footer } from "../data/AssetsLinks.js";
 
 function FooterDesktop() {
   return (
@@ -12,7 +13,7 @@ function FooterDesktop() {
         <div
           className="w-full h-[800px] bg-no-repeat bg-contain bg-bottom flex flex-col justify-center items-center gap-5"
           style={{
-            backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/Group%2013.webp')`,
+            backgroundImage: `url(${Footer.Desktop_BG})`,
             backgroundSize: "100% auto",
           }}
         >
@@ -23,7 +24,7 @@ function FooterDesktop() {
               <div
                 className="w-40 h-40 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/12Asset%201%204.webp')`,
+                  backgroundImage: `url('${Footer.Desktop_LOGO}')`,
                   backgroundSize: "100% auto",
                 }}
               ></div>
@@ -45,21 +46,21 @@ function FooterDesktop() {
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp')` }}
+                      style={{ backgroundImage: `url('${Footer.Desktop_Email}')` }}
                     ></div>
                     <div className="">info@harmonymusic.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/call.webp')` }}
+                      style={{ backgroundImage: `url('${Footer.Desktop_Call}')` }}
                     ></div>
                     <div>+1 (555) 123-4567</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/location.webp')` }}
+                      style={{ backgroundImage: `url('${Footer.Desktop_Location}')` }}
                     ></div>
                     <div className="">
                       123 Music Avenue, Harmony City, MC 12345
@@ -72,19 +73,19 @@ function FooterDesktop() {
                 <div className="flex flex-row gap-5">
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/fb.webp')` }}
+                    style={{ backgroundImage: `url('${Footer.Desktop_FB}')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp')` }}
+                    style={{ backgroundImage: `url('${Footer.Desktop_Insta}')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                   style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp')` }}
+                    style={{ backgroundImage: `url('${Footer.Desktop_Twitter}')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp')` }}
+                    style={{ backgroundImage: `url('${Footer.Desktop_Insta}')` }}
                   ></div>
                 </div>
               </div>

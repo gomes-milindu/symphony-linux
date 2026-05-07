@@ -3,17 +3,19 @@ import UpComingCard from "../components/UpCommingCard";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { LandingPage } from "../data/AssetsLinks.js";
 
 import UpComingMobile from "./UpCommingMobile";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Mousewheel, Autoplay, Pagination } from "swiper/modules";
+
 
 export default function UpComingSection() {
   const eventDetails = [
     {
       id: 1,
       image:
-        "https://unsplash.com/photos/stage-light-front-of-audience-NYrVisodQ2M",
+        LandingPage.Event1,
       title: "Music Concert Extravaganza",
       dateTime: "Dec 15, 2023 | 7:00 PM",
       location: "Symphony Hall, Downtown",
@@ -22,7 +24,7 @@ export default function UpComingSection() {
     {
       id: 2,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+        LandingPage.Event2,
       title: "Jazz Night Live",
       dateTime: "Jan 10, 2024 | 8:00 PM",
       location: "Blue Note Club",
@@ -30,7 +32,7 @@ export default function UpComingSection() {
     {
       id: 3,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+        LandingPage.Event3,
       title: "Classical Evening",
       dateTime: "Feb 20, 2024 | 6:30 PM",
       location: "Grand Opera House",
@@ -42,7 +44,7 @@ export default function UpComingSection() {
     {
       id: 1,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+        LandingPage.Event1,
       title: "Music Concert Extravaganza",
       dateTime: "Dec 15, 2023 | 7:00 PM",
       location: "Symphony Hall, Downtown",
@@ -51,7 +53,7 @@ export default function UpComingSection() {
     {
       id: 2,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+        LandingPage.Event2,
       title: "Jazz Night Live",
       dateTime: "Jan 10, 2024 | 8:00 PM",
       location: "Blue Note Club",
@@ -59,7 +61,7 @@ export default function UpComingSection() {
     {
       id: 3,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+        LandingPage.Event3,
       title: "Classical Evening",
       dateTime: "Feb 20, 2024 | 6:30 PM",
       location: "Grand Opera House",
@@ -68,7 +70,7 @@ export default function UpComingSection() {
     {
       id: 4,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+        LandingPage.Event1,
       title: "Music Concert Extravaganza",
       dateTime: "Dec 15, 2023 | 7:00 PM",
       location: "Symphony Hall, Downtown",
@@ -77,7 +79,7 @@ export default function UpComingSection() {
     {
       id: 5,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+        LandingPage.Event2,
       title: "Jazz Night Live",
       dateTime: "Jan 10, 2024 | 8:00 PM",
       location: "Blue Note Club",
@@ -85,7 +87,7 @@ export default function UpComingSection() {
     {
       id: 6,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+        LandingPage.Event3,
       title: "Classical Evening",
       dateTime: "Feb 20, 2024 | 6:30 PM",
       location: "Grand Opera House",
@@ -93,7 +95,7 @@ export default function UpComingSection() {
     {
       id: 7,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+        LandingPage.Event1,
       title: "Music Concert Extravaganza",
       dateTime: "Dec 15, 2023 | 7:00 PM",
       location: "Symphony Hall, Downtown",
@@ -102,7 +104,7 @@ export default function UpComingSection() {
     {
       id: 8,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+        LandingPage.Event2,
       title: "Jazz Night Live",
       dateTime: "Jan 10, 2024 | 8:00 PM",
       location: "Blue Note Club",
@@ -110,7 +112,7 @@ export default function UpComingSection() {
     {
       id: 9,
       image:
-        "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+        LandingPage.Event3,
       title: "Classical Evening",
       dateTime: "Feb 20, 2024 | 6:30 PM",
       location: "Grand Opera House",

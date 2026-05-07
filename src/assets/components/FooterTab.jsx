@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { Footer } from "../data/AssetsLinks.js";
 
 function FooterTab() {
   return (
@@ -9,7 +9,7 @@ function FooterTab() {
         <div
           className="w-full aspect-[1.583/1] bg-no-repeat bg-contain bg-bottom flex flex-col justify-center items-center"
           style={{
-            backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Group14.png')`,
+            backgroundImage: `url('${Footer.Tablet_BG}')`,
             backgroundSize: "100% auto",
           }}
         >
@@ -20,7 +20,7 @@ function FooterTab() {
               <div
                 className="w-25 h-25 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/FooterLogo.png')`,
+                  backgroundImage: `url('${Footer.Tablet_LOGO}')`,
                   backgroundSize: "100% auto",
                 }}
               ></div>
@@ -42,21 +42,21 @@ function FooterTab() {
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/EmailIcons.png')` }}
+                      style={{ backgroundImage: `url('${Footer.Tablet_Email}')` }}
                     ></div>
                     <div className="">info@harmonymusic.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/CallIcons.png')` }}
+                      style={{ backgroundImage: `url('${Footer.Tablet_Call}')` }}
                     ></div>
                     <div>+1 (555) 123-4567</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
-                      style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/LocationIcons.png')` }}
+                      style={{ backgroundImage: `url('${Footer.Tablet_Location}')` }}
                     ></div>
                     <div className="">
                       123 Music Avenue, Harmony City, MC 12345
@@ -69,19 +69,19 @@ function FooterTab() {
                 <div className="flex flex-row gap-3">
                   <div
                     className="w-8 h-8 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/fb.png')` }}
+                    style={{ backgroundImage: `url('${Footer.Tablet_FB}')` }}
                   ></div>
                   <div
                     className="w-8 h-8 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/insta.png')` }}
+                    style={{ backgroundImage: `url('${Footer.Tablet_Insta}')` }}
                   ></div>
                   <div
                     className="w-8 h-8 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/twitter.png')` }}
+                    style={{ backgroundImage: `url('${Footer.Tablet_Twitter}')` }}
                   ></div>
                   <div
                     className="w-8 h-8 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/youtube.png')` }}
+                    style={{ backgroundImage: `url('${Footer.Tablet_Insta}')` }}
                   ></div>
                 </div>
               </div>
