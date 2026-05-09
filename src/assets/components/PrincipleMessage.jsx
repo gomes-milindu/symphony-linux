@@ -1,4 +1,5 @@
 import Topic from "../components/Topic";
+import { AboutPage } from "../data/AssetsLinks.js";
 
 export default function PrinciplaMessage() {
   return (
@@ -15,7 +16,7 @@ export default function PrinciplaMessage() {
                     <div className="w-full lg:w-[20vw] lg:block flex justify-center  ">
                     
                         <img  
-                        src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/principle.png"
+                        src= {AboutPage.PrincipleMessage_Image}
                         className=" md:w-[38vw] sm:w-[40vw] w-[50vw] object-cover"/>
                         
                     </div>

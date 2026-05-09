@@ -1,4 +1,4 @@
-import { LandingPage } from "../data/AssetsLinks.js";
+import { EventPage, LandingPage } from "../data/AssetsLinks.js";
 
 export const EventsData = [
   {
@@ -9,125 +9,125 @@ export const EventsData = [
     date: "2025-12-4",
     details: [
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/DateIcon.png",
+        img: EventPage.EventCard_Calendar,
         text: "December 4, 2025",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/TimeIcon.png",
+        img: EventPage.EventCard_Time,
         text: "6:00 PM - 9:00 PM",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/PlaceIcon.png",
+        img: EventPage.EventCard_Place,
         text: "Harmony Concert Hall",
       },
       // { img: "src/assets/Icons/EventsIcons/PeoplesIcon.png", text: "500 seats" },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/MoneyIcon.png",
+        img: EventPage.EventCard_Money,
         text: "Free Entry",
       },
     ],
   },
 
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/eventpic1.jpg",
+    pic: LandingPage.Event2,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
     date: "2025-12-4",
     details: [
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/DateIcon.png",
+        img: EventPage.EventCard_Calendar,
         text: "December 4, 2025",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/TimeIcon.png",
+        img: EventPage.EventCard_Time,
         text: "6:00 PM - 9:00 PM",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/PlaceIcon.png",
+        img: EventPage.EventCard_Place,
         text: "Harmony Concert Hall",
       },
       // { img: "src/assets/Icons/EventsIcons/PeoplesIcon.png", text: "500 seats" },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/MoneyIcon.png",
+        img: EventPage.EventCard_Money,
         text: "Free Entry",
       },
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+    pic: LandingPage.Event3,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
     date: "2025-12-4",
     details: [
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/DateIcon.png",
+        img: EventPage.EventCard_Calendar,
         text: "December 4, 2025",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/TimeIcon.png",
+        img: EventPage.EventCard_Time,
         text: "6:00 PM - 9:00 PM",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/PlaceIcon.png",
+        img: EventPage.EventCard_Place,
         text: "Harmony Concert Hall",
       },
       // { img: "src/assets/Icons/EventsIcons/PeoplesIcon.png", text: "500 seats" },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/MoneyIcon.png",
+        img: EventPage.EventCard_Money,
         text: "Free Entry",
       },
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+    pic: LandingPage.Event1,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
     date: "2025-12-4",
     details: [
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/DateIcon.png",
+        img: EventPage.EventCard_Calendar,
         text: "December 4, 2025",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/TimeIcon.png",
+        img: EventPage.EventCard_Time,
         text: "6:00 PM - 9:00 PM",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/PlaceIcon.png",
+        img: EventPage.EventCard_Place,
         text: "Harmony Concert Hall",
       },
       // { img: "src/assets/Icons/EventsIcons/PeoplesIcon.png", text: "500 seats" },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/MoneyIcon.png",
+        img: EventPage.EventCard_Money,
         text: "Free Entry",
       },
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+    pic: LandingPage.Event2,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
     date: "2025-12-4",
     details: [
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/DateIcon.png",
+        img: EventPage.EventCard_Calendar,
         text: "December 4, 2025",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/TimeIcon.png",
+        img: EventPage.EventCard_Time,
         text: "6:00 PM - 9:00 PM",
       },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/PlaceIcon.png",
+        img: EventPage.EventCard_Place,
         text: "Harmony Concert Hall",
       },
       // { img: "src/assets/Icons/EventsIcons/PeoplesIcon.png", text: "500 seats" },
       {
-        img: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/MoneyIcon.png",
+        img: EventPage.EventCard_Money,
         text: "Free Entry",
       },
     ],

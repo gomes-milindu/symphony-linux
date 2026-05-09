@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import MusicGallery from "../components/MusicGallery";
 import CurveBackground from "../components/LandingLeftCurve";
 import LandingLeftCurve from "../components/LandingLeftCurve";
+import { GalleryPage } from "../data/AssetsLinks.js";
 function Gallery() {
   return (
     <>
@@ -12,9 +13,9 @@ function Gallery() {
 
       
       <OtherHero
-        desktopImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Gallery/FrameGal00.png"
-        mobileImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Gallery/Framegal.png"
-        tabletImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Gallery/galleryTab.png"
+        desktopImg={GalleryPage.Desktop_BG}
+        mobileImg={GalleryPage.Mobile_BG}
+        tabletImg={GalleryPage.Tablet_BG}
         title={"Gallery"}
         subtitle={"Capturing moments of musical joy, growth, and achievement"}
       />

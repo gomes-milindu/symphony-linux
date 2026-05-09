@@ -23,7 +23,7 @@ function OtherHero(props) {
     <>
       {/* ===== Mobile hero ===== */}
       <div
-        className="block sm:hidden w-full h-[55vh] bg-cover bg-bottom bg-no-repeat relative"
+        className="block sm:hidden w-full h-[65vh] bg-cover bg-bottom bg-no-repeat relative"
         style={{ backgroundImage: `url(${props.mobileImg})` }}
       >
         {/* top bar */}
@@ -125,12 +125,13 @@ function OtherHero(props) {
         </div>
       </div>
 
+{/* aspect-[1440/850] */}
       {/* Desktop hero */}
       <div
-        className="hidden xl:inline-flex w-full aspect-[1440/850] bg-contain bg-no-repeat justify-center items-start"
+        className="hidden xl:inline-flex w-full  aspect-[1440/850] bg-cover bg-no-repeat justify-center items-start"
         style={{
           backgroundImage: `url(${props.desktopImg})`,
-          backgroundSize: "100% auto",
+          backgroundSize: "100% 100%",
         }}
       >
         <div className="flex flex-col justify-center items-center">
