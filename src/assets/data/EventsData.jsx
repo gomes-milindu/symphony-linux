@@ -29,7 +29,7 @@ export const EventsData = [
   },
 
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Event/eventpic1.jpg",
+    pic: LandingPage.Event2,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
@@ -55,7 +55,7 @@ export const EventsData = [
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-audience.jpg",
+    pic: LandingPage.Event3,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
@@ -81,7 +81,7 @@ export const EventsData = [
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/j.jpg",
+    pic: LandingPage.Event1,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
@@ -107,7 +107,7 @@ export const EventsData = [
     ],
   },
   {
-    pic: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/pexels-mobile-phone.jpg",
+    pic: LandingPage.Event2,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",

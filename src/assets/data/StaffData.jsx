@@ -1,3 +1,5 @@
+import { AboutPage } from "../data/AssetsLinks.js";
+
 export const StaffData = [
   {
     id: 1,
@@ -5,7 +7,7 @@ export const StaffData = [
     qualification: "Bachelor of Science",
     email: "emily@gmail.com",
     phone: "+001 23 456 6789",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
   {
     id: 2,
@@ -13,7 +15,7 @@ export const StaffData = [
     qualification: "Master of Music",
     email: "sarah@gmail.com",
     phone: "+001 98 765 4321",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
   {
     id: 3,
@@ -21,7 +23,7 @@ export const StaffData = [
     qualification: "Bachelor of Arts",
     email: "daniel@gmail.com",
     phone: "+001 45 678 1234",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
   {
     id: 4,
@@ -29,7 +31,7 @@ export const StaffData = [
     qualification: "Music Theory",
     email: "olivia@gmail.com",
     phone: "+001 11 222 3333",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
   {
     id: 5,
@@ -37,7 +39,7 @@ export const StaffData = [
     qualification: "Piano Specialist",
     email: "james@gmail.com",
     phone: "+001 55 666 7777",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
   {
     id: 6,
@@ -45,6 +47,6 @@ export const StaffData = [
     qualification: "Vocal Coach",
     email: "sophia@gmail.com",
     phone: "+001 88 999 0000",
-    image: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staff1.png",
+    image: AboutPage.Staff_Image,
   },
 ];

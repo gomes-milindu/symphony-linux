@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Reveal from "../animations/Reveal"
 import LandingLeftCurve from "../components/LandingLeftCurve"
 import AboutLeftCurve from "../components/AboutLeftCurve"
+import { AboutPage } from "../data/AssetsLinks.js";
 function AboutUs(){
     return(
         <>
@@ -15,9 +16,9 @@ function AboutUs(){
       
         
         <OtherHero 
-        tabletImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/aboutTab.png" 
-        mobileImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/aboutMob.png" 
-        desktopImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/about.png"
+        tabletImg={AboutPage.Tablet_BG} 
+        mobileImg={AboutPage.Mobile_BG} 
+        desktopImg={AboutPage.Desktop_BG}
         title={"About Harmony"} subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         {/* <AchievementCartSet /> */}
         

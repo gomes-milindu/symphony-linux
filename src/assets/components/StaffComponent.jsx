@@ -1,3 +1,5 @@
+import { AboutPage } from "../data/AssetsLinks.js";
+
 export default function StaffComponent({ staff }) {
   return (
 
@@ -9,13 +11,13 @@ export default function StaffComponent({ staff }) {
       />
 
       <img
-        src="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staffGray.png"
+        src={AboutPage.LightGrey_Curve}
         className="w-[298.19px] h-[139.93px]  absolute bottom-0 right-0"
       />
 
       <div className="absolute bottom-2 right-2 w-[298.19px] h-[139.93px] flex items-center justify-center">
         <img 
-        src= "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/About%20us/staffBlue.png"
+        src= {AboutPage.DarkBlue_Curve}
         className="absolute inset-0 w-full h-full" />
 
         <div className="relative flex flex-col gap-1  text-white">

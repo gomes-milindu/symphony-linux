@@ -3,6 +3,8 @@ import OtherNavbar from "../components/OtherNavbar"
 import OtherHero from "../components/OtherHero"
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm"
+import { Contact } from "lucide-react";
+import { ContactPage } from "../data/AssetsLinks.js";
 function ContactUs(){
     return(
         <>
@@ -10,9 +12,9 @@ function ContactUs(){
         <OtherNavbar />
       {/* </div> */}
         
-        <OtherHero tabletImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/contactTab.png" 
-        mobileImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame300mob.png" 
-        desktopImg="https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame300.png" 
+        <OtherHero tabletImg={ContactPage.Tablet_BG} 
+        mobileImg={ContactPage.Mobile_BG} 
+        desktopImg={ContactPage.Desktop_BG}
         title={"Contact Us"} 
         subtitle={"Capturing moments of musical joy, growth, and achievement"} />
         

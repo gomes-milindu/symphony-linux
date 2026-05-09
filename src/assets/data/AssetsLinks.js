@@ -2,6 +2,7 @@ import { Badge, Tablet } from "lucide-react";
 import Header from "../components/Header";
 import OurStory from "../components/OurStory";
 import LeftTopStudent from "../components/LeftTopStudent";
+import PrinciplaMessage from "../components/PrincipleMessage";
 
 export const LandingPage = {
   // Header Mobile View
@@ -60,4 +61,47 @@ export const Footer = {
   Mobile_FB: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/fb.webp",
   Mobile_Insta: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp",
   Mobile_Twitter: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp",
+};
+
+
+export const EventPage = {
+  Tablet_BG: "",
+  Mobile_BG: "https://i.ibb.co/6cGrHG55/evenet-Mobile.webp",
+  Desktop_BG: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/EventHeader-web.webp"
+};
+
+
+export const ClassPage = {
+  Tablet_BG: "",
+  Mobile_BG: "https://i.ibb.co/ksbjWRRC/mob-Clz.webp",
+  Desktop_BG: "https://i.ibb.co/Gv78yfJ3/Classes-Header.webp"
+};
+
+
+export const GalleryPage = {
+  Tablet_BG: "",
+  Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
+  Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp"
+};
+
+
+export const AboutPage = {
+  Tablet_BG: "",
+  Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
+  Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
+  PrincipleMessage_Image: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/Principle.png", 
+
+  // Staff Image Curve
+  LightGrey_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/LightGray.png",
+  DarkBlue_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/DarkCurve.png",
+
+  // Staff Section
+  Staff_Image: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/Staff.png",
+};
+
+
+export const ContactPage = {
+  Tablet_BG: "",
+  Mobile_BG: "https://i.ibb.co/ffKb66w/Contact-Mob.webp",
+  Desktop_BG: "https://i.ibb.co/twLGWGVy/Contact-Header.webp"
 };
