@@ -34,6 +34,10 @@ export const LandingPage = {
   Event1: "https://i.ibb.co/xSZ6vzkc/event-1.webp",
   Event2: "https://i.ibb.co/pBvwVBTW/event-2.webp",
   Event3: "https://i.ibb.co/vxSxPMJ5/event-3.webp",
+
+  // Curves
+  LandingLeftCurve: "https://i.ibb.co/5xW5Fm5Y/Left-Curve.webp",
+  LandingRightCurve: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Vector%201.png",
 };
 
 export const Footer = {
@@ -67,14 +71,25 @@ export const Footer = {
 export const EventPage = {
   Tablet_BG: "",
   Mobile_BG: "https://i.ibb.co/6cGrHG55/evenet-Mobile.webp",
-  Desktop_BG: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/EventHeader-web.webp"
+  Desktop_BG: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/EventHeader-web.webp",
+  EventCard_Calendar: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/Icons.png",
+  EventCard_Time: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/Clock.png",
+  EventCard_Place: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/LocationIcon.png",
+  EventCard_Money: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/DollarIcon.png"
 };
 
 
 export const ClassPage = {
   Tablet_BG: "",
   Mobile_BG: "https://i.ibb.co/ksbjWRRC/mob-Clz.webp",
-  Desktop_BG: "https://i.ibb.co/Gv78yfJ3/Classes-Header.webp"
+  Desktop_BG: "https://i.ibb.co/Gv78yfJ3/Classes-Header.webp",
+  Class_1: "https://i.ibb.co/R4CtPB0q/guitar-class.webp",
+  Class_2: "https://i.ibb.co/C5JTxMnR/violin-class.webp",
+  Class_3: "https://i.ibb.co/XxGWnK9N/piano-class.webp",  
+  Class_4: "https://i.ibb.co/R4CtPB0q/guitar-class.webp",
+  Class_5: "https://i.ibb.co/XxGWnK9N/piano-class.webp",
+  Class_6: "https://i.ibb.co/XxGWnK9N/piano-class.webp",
+  Class_7: "https://i.ibb.co/XxGWnK9N/piano-class.webp",
 };
 
 

@@ -1,8 +1,9 @@
+import { ClassPage } from "./AssetsLinks";
+
 export const ClassesPageData = [
   {
     id: 1,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
+    image: ClassPage.Class_1,
     category: "Guitar",
     title: "Guitar Class",
     level: "Beginner",
@@ -19,8 +20,7 @@ export const ClassesPageData = [
   },
   {
     id: 2,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+    image: ClassPage.Class_2,
     category: "Piano",
     title: "Piano Class",
     level: "Beginner",
@@ -37,8 +37,7 @@ export const ClassesPageData = [
   },
   {
     id: 3,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Violine.jpg",
+    image: ClassPage.Class_3,
     category: "Violin",
     title: "Violin Class",
     level: "Intermediate",
@@ -55,8 +54,7 @@ export const ClassesPageData = [
   },
   {
     id: 4,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Guitar.jpg",
+    image: ClassPage.Class_4,
     category: "Drum",
     title: "Drum Class",
     level: "Beginner",
@@ -73,8 +71,7 @@ export const ClassesPageData = [
   },
   {
     id: 5,
-    image:
-      "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Keyboard.png",
+    image: ClassPage.Class_5,
     category: "Keyboard",
     title: "Key Board Class",
     level: "Advanced",
