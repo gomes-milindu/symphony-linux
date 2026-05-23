@@ -10,8 +10,22 @@ import UpComingSection from "../components/UpCommingSection";
 import UpComingSlide from "../components/UpCommingSlide";
 import LandingLeftCurve from "../components/LandingLeftCurve";
 import LandingRightCurve from "../components/LandingRightCurve";
+import { useEffect } from "react";
+import { ClassPage, EventPage } from "../data/AssetsLinks.js";
 
 export default function Landing() {
+
+  useEffect(() => {
+    // AssetsLinks.js හි ඇති සියලුම URL කැචේ කිරීමට
+    const imagesToCache = [...Object.values(ClassPage), ...Object.values(EventPage)];
+    
+    imagesToCache.forEach(url => {
+      if (url && typeof url === 'string' && url.startsWith('http')) {
+        const img = new Image();
+        img.src = url;
+      }
+    });
+  }, []);
   return (
     <div className="landing">
       <Header />

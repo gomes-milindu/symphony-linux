@@ -23,16 +23,16 @@ export default function PrinciplaMessage() {
                     <div className="lg:w-[50vw] w-[92vw] lg:text-[16px] xl:text-[17px] lg:block flex flex-col text-center lg:text-start gap-3">
                         <div className="flex flex-col gap-3 text-gray-600 xl:max-w-11/12 xl:text-justify">
                             <div>
-                                <p>Founded in 2010, Harmony Music School began with a simple mission: to make quality music education accessible to everyone. What started as a small studio with just three teachers has grown into one of the region's premier music institutions.</p>
+                                <p>Music is a universal language, and it is created through universal principles. Therefore, by learning music correctly, people can gain practical experiences related to science and mathematics.</p>
                             </div>
                             <div>
-                                <p>We believe that music is a universal language that transcends boundaries and enriches lives. Our dedicated team of professional musicians and educators work tirelessly to nurture talent, build confidence, and inspire a lifelong love of music.</p>
+                                <p>Music should be studied both practically and theoretically to gain complete knowledge. Through its history, it is also possible to develop a deep understanding of the world’s economic, political, social, cultural, and major historical periods.</p>
                             </div>
                             <div>
-                                <p>Founded in 2010, Harmony Music School began with a simple mission: to make quality music education accessible to everyone. What started as a small studio with just three teachers has grown into one of the region's premier music</p>
+                                <p>Step by step, we use music as a tool to help build well-disciplined and noble individuals who can later make a great contribution to the field of music. With this goal in mind, our academic staff, including myself, work with strong dedication and commitment.</p>
                             </div>
                             <div>
-                                <p>Founded in 2010, Harmony Music School began with a simple mission: to make quality music education accessible to everyone. What started as a small studio with just three teachers has grown into one of the region's premier music institutions.</p>
+                                <p>With this goal in mind, our academic staff, including myself, work with strong dedication and commitment.</p>
 
                             </div>
                             

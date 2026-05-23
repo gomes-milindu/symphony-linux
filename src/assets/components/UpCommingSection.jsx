@@ -15,28 +15,21 @@ export default function UpComingSection() {
     {
       id: 1,
       image:
-        LandingPage.Event1,
-      title: "Music Concert Extravaganza",
-      dateTime: "Dec 15, 2023 | 7:00 PM",
-      location: "Symphony Hall, Downtown",
+        LandingPage.BathiGee,
+      title: "Cultural Event - Bodu Bathi Gee",
+      dateTime: "May 2026",
+      location: "Symphony Hall",
     },
 
     {
       id: 2,
       image:
         LandingPage.Event2,
-      title: "Jazz Night Live",
-      dateTime: "Jan 10, 2024 | 8:00 PM",
-      location: "Blue Note Club",
+      title: "Annual Western Music Concert",
+      dateTime: "May 10, 2026 | 8:00 PM",
+      location: "Symphony Hall",
     },
-    {
-      id: 3,
-      image:
-        LandingPage.Event3,
-      title: "Classical Evening",
-      dateTime: "Feb 20, 2024 | 6:30 PM",
-      location: "Grand Opera House",
-    },
+    
     
   ];
 
@@ -44,79 +37,55 @@ export default function UpComingSection() {
     {
       id: 1,
       image:
-        LandingPage.Event1,
-      title: "Music Concert Extravaganza",
-      dateTime: "Dec 15, 2023 | 7:00 PM",
-      location: "Symphony Hall, Downtown",
+        LandingPage.BathiGee,
+      title: "Cultural Event - Bodu Bathi Gee",
+      dateTime: "May 2026",
+      location: "Symphony Hall",
     },
 
     {
       id: 2,
       image:
         LandingPage.Event2,
-      title: "Jazz Night Live",
-      dateTime: "Jan 10, 2024 | 8:00 PM",
-      location: "Blue Note Club",
+      title: "Annual Western Music Concert",
+      dateTime: "May 10, 2026 | 8:00 PM",
+      location: "Symphony Hall",
     },
     {
       id: 3,
       image:
-        LandingPage.Event3,
-      title: "Classical Evening",
-      dateTime: "Feb 20, 2024 | 6:30 PM",
-      location: "Grand Opera House",
+        LandingPage.BathiGee,
+      title: "Cultural Event - Bodu Bathi Gee",
+      dateTime: "May 2026",
+      location: "Symphony Hall",
     },
 
     {
       id: 4,
       image:
-        LandingPage.Event1,
-      title: "Music Concert Extravaganza",
-      dateTime: "Dec 15, 2023 | 7:00 PM",
-      location: "Symphony Hall, Downtown",
+        LandingPage.Event2,
+      title: "Annual Western Music Concert",
+      dateTime: "May 10, 2026 | 8:00 PM",
+      location: "Symphony Hall",
     },
 
     {
       id: 5,
       image:
-        LandingPage.Event2,
-      title: "Jazz Night Live",
-      dateTime: "Jan 10, 2024 | 8:00 PM",
-      location: "Blue Note Club",
+        LandingPage.BathiGee,
+      title: "Cultural Event - Bodu Bathi Gee",
+      dateTime: "May 2026",
+      location: "Symphony Hall",
     },
     {
       id: 6,
       image:
-        LandingPage.Event3,
-      title: "Classical Evening",
-      dateTime: "Feb 20, 2024 | 6:30 PM",
-      location: "Grand Opera House",
-    },
-    {
-      id: 7,
-      image:
-        LandingPage.Event1,
-      title: "Music Concert Extravaganza",
-      dateTime: "Dec 15, 2023 | 7:00 PM",
-      location: "Symphony Hall, Downtown",
-    },
-
-    {
-      id: 8,
-      image:
         LandingPage.Event2,
-      title: "Jazz Night Live",
-      dateTime: "Jan 10, 2024 | 8:00 PM",
-      location: "Blue Note Club",
+      title: "Annual Western Music Concert",
+      dateTime: "May 10, 2026 | 8:00 PM",
+      location: "Symphony Hall",
     },
-    {
-      id: 9,
-      image:
-        LandingPage.Event3,
-      title: "Classical Evening",
-      dateTime: "Feb 20, 2024 | 6:30 PM",
-      location: "Grand Opera House",
-    },
+    
     
   ];
 

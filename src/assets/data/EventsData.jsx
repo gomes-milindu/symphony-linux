@@ -2,7 +2,7 @@ import { EventPage, LandingPage } from "../data/AssetsLinks.js";
 
 export const EventsData = [
   {
-    pic: LandingPage.Event1,
+    pic: LandingPage.BathiGee,
     eventname: "Winter Music Festival",
     discription:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
