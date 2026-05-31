@@ -29,9 +29,12 @@ export const LandingPage = {
   ViolineClass: "https://i.ibb.co/C5JTxMnR/violin-class.webp",
   KeyboardClass: "https://i.ibb.co/XxGWnK9N/piano-class.webp",
   Badge: "https://i.ibb.co/N5WcLbK/Property-1-Guitar.png",
+  VocalTraining: "https://i.ibb.co/XZZvmZ2J/vocal-training.webp",
+  TheoryClass: "https://i.ibb.co/5gSLPXW2/theory.webp",
+  KidsClass: "https://i.ibb.co/prZ8bQVk/Kids-Training.webp",
 
   // Events
-  Event1: "https://i.ibb.co/xSZ6vzkc/event-1.webp",
+  BathiGee: "https://i.ibb.co/C5YqwKnk/may23-vesak-buddha-1080x675.webp",
   Event2: "https://i.ibb.co/pBvwVBTW/event-2.webp",
   Event3: "https://i.ibb.co/vxSxPMJ5/event-3.webp",
 
@@ -104,14 +107,15 @@ export const AboutPage = {
   Tablet_BG: "",
   Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
-  PrincipleMessage_Image: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/Principle.png", 
+  PrincipleMessage_Image: "https://i.ibb.co/zh8RjFtX/principle.webp", 
 
   // Staff Image Curve
   LightGrey_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/LightGray.png",
   DarkBlue_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/DarkCurve.png",
 
   // Staff Section
-  Staff_Image: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/Staff.png",
+  Staff_Image1: "https://i.ibb.co/M5BJdd0j/staff-1.webp",
+  Staff_Image2: "https://i.ibb.co/hRJ0YP9z/staff-2.webp"
 };
 
 
