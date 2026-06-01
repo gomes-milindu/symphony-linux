@@ -35,7 +35,7 @@ function OtherHero(props) {
 
         {/* title */}
         <div className="flex flex-col justify-center items-center">
-          <p className="text-[54px] font-primary text-white mt-5">
+          <p className="text-[48px] font-primary text-white mt-5">
             {props.title}
           </p>
           <p className="text-[16px] text-white text-center p-5">
