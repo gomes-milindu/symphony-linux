@@ -40,7 +40,7 @@ export default function PrinciplaMessage() {
                         </div>
                         <div>
                             <p className="font-bold xl:mt-5">
-                                Mr. Sarah Johnson
+                               Deshamanya Dr. K K Prasanna Sanjeewa
                             </p>
 
                         </div>

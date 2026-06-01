@@ -12,31 +12,18 @@ function AboutOurStory() {
         />
 
         <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
-          Founded in 2010, Harmony Music School began with a simple mission: to
-          make quality music education accessible to everyone. What started as a
-          small studio with just three teachers has grown into one of the
-          region's premier music institutions. We believe that music is a
-          universal language that transcends boundaries and enriches lives. Our
-          dedicated team of professional musicians and educators work tirelessly
-          to nurture talent, build confidence, and inspire a lifelong love of
-          music.
+          Founded in 2016, Symphony Music Institute was established with a vision of delivering high-quality music education while nurturing creativity, discipline, and artistic excellence. Located in Kalutara, Sri Lanka, the institute provides structured and professional training in Classical Guitar, Piano, Violin, Vocal, Electronic Keyboard, Acoustic Guitar, Recorder, and Theory of Music. Under the guidance of Dr. K. K. Prasanna Sanjeewa, D. Mus. Hons. (Sri Lanka), ATCL (UK), LTCL (UK), the institute has grown into a respected center for musical learning, preparing students for international music examinations, professional performance opportunities, and advanced musical studies.
         </p>
 
         <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
-          Founded in 2010, Harmony Music School began with a simple mission: to
-          make quality music education accessible to everyone. What started as a
-          small studio with just three teachers has grown into one of the
-          region's premier musi Founded in 2010, Harmony Music School began with
-          a simple mission: to make quality music education accessible to
-          everyone. What started as a small studio with just three teachers has
-          grown into one of the region's premier music institutions.
+          Over the past ten years of excellence, Symphony Music Institute has successfully trained over 500 students, ranging from young beginners to music professionals including teachers and university lecturers. The institute has also gained international recognition through prize-winning students, best teacher awards from the United Kingdom, and highest student achievement awards in competitions held in Australia. With a strong commitment to artistic development and educational excellence, the institute continues to inspire the next generation of musicians while fostering a lifelong passion for music.
         </p>
 
         <p className="text-gray-600 text-[16px] md:text-[17px] leading-relaxed text-justify p-2">
-          We believe music is a universal language that transcends boundaries
+          {/* We believe music is a universal language that transcends boundaries
           and enriches lives. Our dedicated team of professional musicians and
           educators work tirelessly to guide students not only to master their
-          instruments, but also to discover their unique musical voice.
+          instruments, but also to discover their unique musical voice. */}
         </p>
       </div>
 
@@ -50,13 +37,7 @@ function AboutOurStory() {
           />
 
           <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-justify p-2">
-            Founded in 2010, Harmony Music School began with a simple mission: to
-          make quality music education accessible to everyone. What started as a
-          small studio with just three teachers has grown into one of the
-          region's premier musi Founded in 2010, Harmony Music School began with
-          a simple mission: to make quality music education accessible to
-          everyone. What started as a small studio with just three teachers has
-          grown into one of the region's premier music institutions.
+           Universal understanding through music.
           </p>
         </div>
 
@@ -68,13 +49,7 @@ function AboutOurStory() {
           />
 
           <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center text-justify p-2">
-            Founded in 2010, Harmony Music School began with a simple mission: to
-          make quality music education accessible to everyone. What started as a
-          small studio with just three teachers has grown into one of the
-          region's premier musi Founded in 2010, Harmony Music School began with
-          a simple mission: to make quality music education accessible to
-          everyone. What started as a small studio with just three teachers has
-          grown into one of the region's premier music institutions.
+            Let us study music properly and move from joy toward wisdom
           </p>
         </div>
       </div>
