@@ -8,12 +8,14 @@ function ExpertSection() {
     {
       icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "Expert Instructors",
-      para: "Highly qualified instructors focused on proffessional music training",
+      para: "Highly qualified instructors focused on proffessional music training"
+      //para: "Highly qualified instructors focused on proffessional music training",
     },
     {
       icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
       topic: "International Curriculum",
       para: "Globally recognized curriculum aligned with International standards.",
+      
     },
     {
       icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
