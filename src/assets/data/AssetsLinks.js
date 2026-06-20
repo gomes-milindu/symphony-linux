@@ -1,4 +1,4 @@
-import { Badge, Tablet } from "lucide-react";
+import { Badge, Music, Tablet } from "lucide-react";
 import Header from "../components/Header";
 import OurStory from "../components/OurStory";
 import LeftTopStudent from "../components/LeftTopStudent";
@@ -52,6 +52,7 @@ export const Footer = {
   Desktop_FB: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/fb.webp",
   Desktop_Insta: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp",
   Desktop_Twitter: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp",
+  Desktop_Youtube: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/Link.png",
   Tablet_BG: "",
     Tablet_LOGO: "",
     Mobile_BG: "https://i.ibb.co/wr2XtSsY/Footer-Mob.webp",
@@ -65,6 +66,7 @@ export const Footer = {
   Tablet_Email: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp",
   Mobile_Call: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/call.webp",
   Mobile_Location: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/location.webp",
+  Mobile_Email: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp",
   Mobile_FB: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/fb.webp",
   Mobile_Insta: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp",
   Mobile_Twitter: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp",
@@ -99,7 +101,17 @@ export const ClassPage = {
 export const GalleryPage = {
   Tablet_BG: "",
   Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
-  Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp"
+  Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
+
+  MusicGallery_1: "https://i.ibb.co/S4Q72nNL/gallery-1.webp",
+  MusicGallery_2: "https://i.ibb.co/Kzpd2dnR/gallery-2.webp",
+  MusicGallery_3: "https://i.ibb.co/9HbDJ11T/gallery-3.webp",
+  MusicGallery_4: "https://i.ibb.co/TBp8CQX2/gallery-4.webp",
+  MusicGallery_5: "https://i.ibb.co/ycBg55qk/gallery-5.webp",
+  MusicGallery_6: "https://i.ibb.co/9krpZYHx/gallery-6.webp",
+  MusicGallery_7: "https://i.ibb.co/p6TqkN9Z/gallery-7.webp",
+  MusicGallery_8: "https://i.ibb.co/q3X79Q2g/gallery-8.webp",
+  MusicGallery_9: "https://i.ibb.co/TDKLVGj8/gallery-9.webp",
 };
 
 

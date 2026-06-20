@@ -48,14 +48,14 @@ function FooterDesktop() {
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
                       style={{ backgroundImage: `url('${Footer.Desktop_Email}')` }}
                     ></div>
-                    <div className="">info@harmonymusic.com</div>
+                    <div className="">symphonymusic2022@gmail.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
                       style={{ backgroundImage: `url('${Footer.Desktop_Call}')` }}
                     ></div>
-                    <div>+1 (555) 123-4567</div>
+                    <div>+9471 900 81 81</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
@@ -63,7 +63,7 @@ function FooterDesktop() {
                       style={{ backgroundImage: `url('${Footer.Desktop_Location}')` }}
                     ></div>
                     <div className="">
-                      123 Music Avenue, Harmony City, MC 12345
+                      123 Music Avenue, Kalutara, Sri Lanka
                     </div>
                   </div>
                 </div>
@@ -71,21 +71,23 @@ function FooterDesktop() {
               <div className="flex flex-col gap-5">
                 <div className="text-2xl text-yellow-400">Social Media</div>
                 <div className="flex flex-row gap-5">
-                  <div
+                  <a
+                    href="https://www.facebook.com/symphonymusicinstitute"
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
                     style={{ backgroundImage: `url('${Footer.Desktop_FB}')` }}
-                  ></div>
-                  <div
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/symphony_musicinstitute?igsh=aG9ybXlnNHluanNk"
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
                     style={{ backgroundImage: `url('${Footer.Desktop_Insta}')` }}
-                  ></div>
+                  ></a>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
                     style={{ backgroundImage: `url('${Footer.Desktop_Twitter}')` }}
                   ></div>
                   <div
                     className="w-10 h-10 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url('${Footer.Desktop_Insta}')` }}
+                    style={{ backgroundImage: `url('${Footer.Desktop_Youtube}')` }}
                   ></div>
                 </div>
               </div>

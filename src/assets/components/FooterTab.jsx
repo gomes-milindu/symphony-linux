@@ -44,14 +44,14 @@ function FooterTab() {
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
                       style={{ backgroundImage: `url('${Footer.Tablet_Email}')` }}
                     ></div>
-                    <div className="">info@harmonymusic.com</div>
+                    <div className="">symphonymusic2022@gmail.com</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
                       className="w-5 h-5 bg-cover bg-center bg-no-repeat"
                       style={{ backgroundImage: `url('${Footer.Tablet_Call}')` }}
                     ></div>
-                    <div>+1 (555) 123-4567</div>
+                    <div>+9471 900 81 81</div>
                   </div>
                   <div className="flex flex-row items-center gap-4">
                     <div
@@ -59,7 +59,7 @@ function FooterTab() {
                       style={{ backgroundImage: `url('${Footer.Tablet_Location}')` }}
                     ></div>
                     <div className="">
-                      123 Music Avenue, Harmony City, MC 12345
+                      123 Music Avenue, Kalutara, Sri Lanka
                     </div>
                   </div>
                 </div>
