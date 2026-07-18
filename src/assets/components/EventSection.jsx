@@ -10,7 +10,7 @@ import EventCardBig from "./EventCardBig.jsx";
 export default function EventsSection() {
   const [filter, setFilter] = useState("All Event");
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const [mobileBigCard, setMobileBigCard] = useState(null);
+const [mobileBigCard, setMobileBigCard] = useState(-1);
 
   const today = new Date();
 
@@ -43,29 +43,31 @@ export default function EventsSection() {
           ))}
         </div>
 
-        {/* ================= MOBILE ================= */}
-        <div className="w-[95%] flex flex-col gap-10 md:hidden">
-          {mobileBigCard ? (
-            <>
-              <button
-                onClick={() => setMobileBigCard(null)}
-                className="text-sm text-[#454545]"
-              >
-             
-              </button>
-
-              <EventMobileCard {...mobileBigCard} />
-            </>
-          ) : (
-            filteredEvents.map((e, i) => (
-              <EventCardSmall
-                key={i}
-                {...e}
-                onClick={() => setMobileBigCard(e)}
-              />
-            ))
-          )}
-        </div>
+    
+     {/* ================= MOBILE ================= */}
+<div className="w-[95%] flex flex-col gap-10 md:hidden">
+  {filteredEvents.map((e, i) => (
+    <div key={i}>
+      {mobileBigCard === i ? (
+        <EventMobileCard
+          pic={e.pic}
+          eventname={e.eventname}
+          discription={e.discription}
+          details={e.details}
+          category="Event"
+        />
+      ) : (
+        <EventCardSmall
+          pic={e.pic}
+          eventname={e.eventname}
+          discription={e.discription}
+          details={e.details}
+          onClick={() => setMobileBigCard(i)}
+        />
+      )}
+    </div>
+  ))}
+</div>
 
         {/* ================= TABLET ================= */}
         <div className="hidden md:grid md:grid-cols-2 md:w-full xl:hidden gap-16">
