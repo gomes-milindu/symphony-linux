@@ -10,11 +10,11 @@ export const LandingPage = {
   Header_Mobile_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
   
   // Header Tablet View
-  Header_Tablet: "",
-  Header_Tablet_LOGO: "",
+  Header_Tablet: "https://i.ibb.co/03xmJwF/Tab-Header.png",
+  Header_Tablet_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
   
   // Header Desktop View
-  Header_Desktop: "https://xqrjcvdiomoxnutbvuha.supabase.co/storage/v1/object/public/Header-Symphony/Group%2012.webp",
+  Header_Desktop: "https://i.ibb.co/s9GpRCXW/Desktop-Header.png",
   Header_Desktop_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
 
   // Our Story Girl
@@ -53,8 +53,8 @@ export const Footer = {
   Desktop_Insta: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/insta.webp",
   Desktop_Twitter: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/twitter.webp",
   Desktop_Youtube: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/Link.png",
-  Tablet_BG: "",
-    Tablet_LOGO: "",
+  Tablet_BG: "https://i.ibb.co/KcxLkz3X/Tablet-Footer.png",
+    Tablet_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
     Mobile_BG: "https://i.ibb.co/wr2XtSsY/Footer-Mob.webp",
     Mobile_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
     Tablet_Email: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Landing%20Page/mail.webp",
@@ -74,7 +74,7 @@ export const Footer = {
 
 
 export const EventPage = {
-  Tablet_BG: "",
+  Tablet_BG: "https://i.ibb.co/Lds1jbYy/Tablet-Event.png",
   Mobile_BG: "https://i.ibb.co/6cGrHG55/evenet-Mobile.webp",
   Desktop_BG: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/EventHeader-web.webp",
   EventCard_Calendar: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/Icons.png",
@@ -85,7 +85,7 @@ export const EventPage = {
 
 
 export const ClassPage = {
-  Tablet_BG: "",
+  Tablet_BG: "https://i.ibb.co/Myj9t4TH/Tablet-Class.png",
   Mobile_BG: "https://i.ibb.co/ksbjWRRC/mob-Clz.webp",
   Desktop_BG: "https://i.ibb.co/Gv78yfJ3/Classes-Header.webp",
   Class_1: "https://i.ibb.co/R4CtPB0q/guitar-class.webp",
@@ -99,7 +99,7 @@ export const ClassPage = {
 
 
 export const GalleryPage = {
-  Tablet_BG: "",
+  Tablet_BG: "https://i.ibb.co/Gb6NHzV/Tablet-Gallery.png",
   Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
 
@@ -116,7 +116,7 @@ export const GalleryPage = {
 
 
 export const AboutPage = {
-  Tablet_BG: "",
+  Tablet_BG: "https://i.ibb.co/RZRrMxp/Tab-About.png",
   Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
   PrincipleMessage_Image: "https://i.ibb.co/zh8RjFtX/principle.webp", 
@@ -132,7 +132,7 @@ export const AboutPage = {
 
 
 export const ContactPage = {
-  Tablet_BG: "",
+  Tablet_BG: "https://i.ibb.co/R4MsXpp5/Tablet-Contact.png",
   Mobile_BG: "https://i.ibb.co/ffKb66w/Contact-Mob.webp",
   Desktop_BG: "https://i.ibb.co/twLGWGVy/Contact-Header.webp"
 };
