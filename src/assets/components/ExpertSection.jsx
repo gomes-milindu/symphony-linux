@@ -6,29 +6,29 @@ import "swiper/css";
 function ExpertSection() {
   const cards = [
     {
-      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      icon: "https://i.ibb.co/ymx4QC0R/Frame-41.png",
       topic: "Expert Instructors",
       para: "Highly qualified instructors focused on proffessional music training"
       //para: "Highly qualified instructors focused on proffessional music training",
     },
     {
-      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      icon: "https://i.ibb.co/ymx4QC0R/Frame-41.png",
       topic: "International Curriculum",
       para: "Globally recognized curriculum aligned with International standards.",
       
     },
     {
-      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      icon: "https://i.ibb.co/ymx4QC0R/Frame-41.png",
       topic: "Certified Courses",
-      para: "Promoting structured, disciplined, and accessible music education within society",
+      para: "Promoting structured and accessible music education within society",
     },
     {
-      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      icon: "https://i.ibb.co/ymx4QC0R/Frame-41.png",
       topic: "Modern Studios",
       para: "Earn globally respected certifications from graded exams to diplomas.",
     },
     {
-      icon: "https://sweqrtjrbwtsxosficzx.supabase.co/storage/v1/object/public/Landing%20Page/Frame%2041.png",
+      icon: "https://i.ibb.co/ymx4QC0R/Frame-41.png",
       topic: "Performance Events",
       para: "Qualifications offer UCAS points for overseas higher education opportunities.",
     },
