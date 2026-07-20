@@ -9,7 +9,7 @@ export const ClassesPageData = [
     title: "Guitar Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "3 Levels",
+    time: "Weekend",
     type: "Acoustic Guitar",
     description:
       "Master both acoustic and electric guitar with our comprehensive curriculum covering everything from basic chords to advanced techniques.",
@@ -26,7 +26,7 @@ export const ClassesPageData = [
     title: "Violin Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Weekend",
+    time: "Weekend",
     type: "Classical Violin",
     description:
       "Learn piano from the ground up with lessons covering music theory, sight-reading, and performance techniques for all genres.",
@@ -43,7 +43,7 @@ export const ClassesPageData = [
     title: "Theory Class",
     level: "Intermediate",
     duration: "2 hrs",
-    levels: "WWeekend",
+    time: "Weekend",
     type: "Music Theory",
     description:
       "Develop your violin skills from bowing basics to expressive performance with our structured approach to classical and modern repertoire.",
@@ -60,7 +60,7 @@ export const ClassesPageData = [
     title: "Guitar Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+   time: "Week Day",
     type: "Acoustic Guitar",
     description:
       "Learn rhythm and coordination with our drum classes covering basic beats, fills, and advanced rhythmic patterns.",
@@ -77,7 +77,7 @@ export const ClassesPageData = [
     title: "Piano Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Weekend",
+    time : "Weekend",
     type: "Classical Piano",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
@@ -95,7 +95,7 @@ export const ClassesPageData = [
     title: "Piano Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+   time: "Week Day",
     type: "Classical Piano",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
@@ -113,7 +113,7 @@ export const ClassesPageData = [
     title: "Violin Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+   time: "Week Day",
     type: "Classical Violin",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
@@ -131,7 +131,7 @@ export const ClassesPageData = [
     title: "Theory Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+    time: "Week Day",
     type: "Music Theory",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
@@ -149,7 +149,7 @@ export const ClassesPageData = [
     title: "Vocal Training",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+   time: "Week Day",
     type: "Vocal Training",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",
@@ -167,7 +167,7 @@ export const ClassesPageData = [
     title: "Kids Class",
     level: "Beginner",
     duration: "2 hrs",
-    levels: "Week Day",
+   time: "Week Day",
     type: "Kids Music",
     description:
       "Explore the vast possibilities of digital keyboards including sound design, sequencing, and live performance techniques.",

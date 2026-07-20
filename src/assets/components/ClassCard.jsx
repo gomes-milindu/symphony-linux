@@ -7,7 +7,7 @@ export default function ClassCard({
   title,
   level,
   duration,
-  levels,
+  time,
   type,
   description,
   features,
@@ -79,10 +79,10 @@ export default function ClassCard({
             <Users className="w-[16px] h-[16px] text-[#F6C000] mt-[1px]" />
             <div className="flex flex-col">
               <span className="text-[11px] font-secondary text-[#6B7280] font-normal mb-0.5">
-                Levels
+                Time
               </span>
               <span className="text-[13px] font-secondary font-medium text-[#454545]">
-                {levels}
+                {time}
               </span>
             </div>
           </div>
