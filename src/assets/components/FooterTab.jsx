@@ -59,7 +59,7 @@ function FooterTab() {
                       style={{ backgroundImage: `url('${Footer.Tablet_Location}')` }}
                     ></div>
                     <div className="">
-                      123 Music Avenue, Kalutara, Sri Lanka
+                      Kalutara, Sri Lanka
                     </div>
                   </div>
                 </div>
