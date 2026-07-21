@@ -70,7 +70,7 @@ function FooterMobile() {
                           style={{ backgroundImage: `url('${Footer.Mobile_Location}')` }}
                         ></div>
                         <div className="text-[12px] text-[#99A1AF]">
-                          23 Music Road, Kalutara, Sri Lanka
+                          Kalutara, Sri Lanka
                         </div>
                       </div>
                     </div>
