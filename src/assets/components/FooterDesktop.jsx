@@ -63,7 +63,7 @@ function FooterDesktop() {
                       style={{ backgroundImage: `url('${Footer.Desktop_Location}')` }}
                     ></div>
                     <div className="">
-                      123 Music Avenue, Kalutara, Sri Lanka
+                      Kalutara, Sri Lanka
                     </div>
                   </div>
                 </div>
