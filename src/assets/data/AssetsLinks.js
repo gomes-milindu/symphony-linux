@@ -130,7 +130,12 @@ export const AboutPage = {
 
   // Staff Section
   Staff_Image1: "https://i.ibb.co/M5BJdd0j/staff-1.webp",
-  Staff_Image2: "https://i.ibb.co/hRJ0YP9z/staff-2.webp"
+  Staff_Image2: "https://i.ibb.co/hRJ0YP9z/staff-2.webp",
+
+  // About Mobile Components
+
+  StudentEnrolled: "https://i.ibb.co/Xrdv2vDj/Frame-41.png",
+  NumberOfClasses: "https://i.ibb.co/k2R0TPSD/Frame-95.png",
 };
 
 
