@@ -129,6 +129,7 @@ export default function ClassCardSection() {
         </div>
 
         {/* Desktop Grid (Matches EventSection exactly) */}
+        
         <div className="hidden xl:grid xl:grid-cols-12 gap-y-15">
           {filteredClasses.reduce((rows, item, index) => {
             if (index % 2 === 0) {
@@ -136,7 +137,7 @@ export default function ClassCardSection() {
             }
             return rows;
           }, []).map((row, rowIndex) => (
-            <div key={rowIndex} className="col-span-12 grid grid-cols-12 gap-15">
+            <div key={rowIndex} className="col-span-12 grid grid-cols-12 gap-x-24 gap-y-15">
               <div className="col-span-1" />
 
               {row.map((item) => (
@@ -149,7 +150,9 @@ export default function ClassCardSection() {
             </div>
           ))}
         </div>
+        
 
+        
         {/* Empty State */}
         {filteredClasses.length === 0 && (
           <div className="flex flex-col items-center justify-center py-16 text-center">

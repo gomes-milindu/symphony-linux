@@ -77,7 +77,7 @@ function OurStory() {
 
           <div className="w-full h-full  xl:w-6/12 hidden xl:flex object-cover ">
             <img
-              src="https://xqrjcvdiomoxnutbvuha.supabase.co/storage/v1/object/public/Our%20Story/music%201.webp"
+              src={LandingPage.OurStory_Image}
               alt="Our Story"
               className="w-full object-contain max-w-full scale-125"
             />
