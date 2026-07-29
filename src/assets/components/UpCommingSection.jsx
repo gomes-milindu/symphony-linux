@@ -38,8 +38,8 @@ export default function UpComingSection() {
       id: 1,
       image:
         LandingPage.BathiGee,
-      title: "Cultural Event - Bodu Bathi Gee",
-      dateTime: "May 2026",
+      title: "Cultural Event - Vesak Bathi Gee 2023",
+      dateTime: "May 2023",
       location: "Symphony Hall",
     },
 
@@ -47,44 +47,37 @@ export default function UpComingSection() {
       id: 2,
       image:
         LandingPage.Event2,
-      title: "Annual Western Music Concert",
-      dateTime: "May 10, 2026 | 8:00 PM",
+      title: "Chiho Akaisha Live Concert",
+      dateTime: "April 10, 2023 | 8:00 PM",
       location: "Symphony Hall",
     },
     {
       id: 3,
       image:
-        LandingPage.BathiGee,
-      title: "Cultural Event - Bodu Bathi Gee",
-      dateTime: "May 2026",
+        LandingPage.Sarena,
+      title: "SERENADE Event - Musical Event",
+      dateTime: "May 2023",
       location: "Symphony Hall",
     },
 
     {
       id: 4,
       image:
-        LandingPage.Event2,
-      title: "Annual Western Music Concert",
-      dateTime: "May 10, 2026 | 8:00 PM",
+        LandingPage.Wesak,
+      title: "Vesak Bathi Gee 2024",
+      dateTime: "May 10, 2024 | 8:00 PM",
       location: "Symphony Hall",
     },
 
     {
       id: 5,
       image:
-        LandingPage.BathiGee,
-      title: "Cultural Event - Bodu Bathi Gee",
+        LandingPage.IndependanceDay,
+      title: "Independance Day Musical Event",
       dateTime: "May 2026",
       location: "Symphony Hall",
     },
-    {
-      id: 6,
-      image:
-        LandingPage.Event2,
-      title: "Annual Western Music Concert",
-      dateTime: "May 10, 2026 | 8:00 PM",
-      location: "Symphony Hall",
-    },
+    
     
     
   ];

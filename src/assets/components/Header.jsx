@@ -57,10 +57,11 @@ function Header() {
         </div>
       </section>
 
-      {/* Web */}
+      {/* Web aspect-[1.9692]*/}
+      {/*}
       <section className="hidden xl:inline-flex w-full aspect-[1.9692] justify-center items-center">
         <div
-          className="w-full aspect-[1.9692] absolute z-1 top-0 bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
+          className="w-full aspect-[1.9692]  absolute z-1 top-0 bg-no-repeat bg-contain bg-red-400 overflow-hidden flex flex-col justify-start items-center"
           style={{
             backgroundImage: `url(${LandingPage.Header_Desktop})`,
             backgroundSize: "100% auto",
@@ -79,7 +80,33 @@ function Header() {
           <div className="font-primary text-7xl text-white">Journey Today</div>
           <HomePageBtn />
         </div>
+      </section>*/}
+
+      <section className="hidden xl:flex w-full h-[95vh] relative justify-center items-center">
+        {/* Background image - let it size naturally, don't force a fixed aspect ratio */}
+        <img
+          src={LandingPage.Header_Desktop}
+          alt=""
+          className="w-full h-auto block"
+        />
+
+        {/* Content overlay */}
+        <div className="absolute inset-0 flex flex-col justify-start items-center">
+          <Navbar />
+          <img
+            src={LandingPage.Header_Desktop_LOGO}
+            alt="Logo"
+            className="w-40 h-40 object-contain m-10"
+          />
+
+          <div className="font-primary text-6xl text-white m-7 tracking-wider">Start Your Musical</div>
+          <div className="font-primary text-6xl text-white tracking-wider">Journey Today</div>
+          <HomePageBtn />
+        </div>
       </section>
+
+
+      
     </>
   );
 }

@@ -128,7 +128,7 @@ function OtherHero(props) {
 {/* aspect-[1440/850] */}
       {/* Desktop hero */}
       <div
-        className="hidden xl:inline-flex w-full  aspect-[1440/850] bg-cover bg-no-repeat justify-center items-start"
+        className="hidden xl:inline-flex w-full  aspect-[1440/750] bg-cover bg-no-repeat justify-center items-start"
         style={{
           backgroundImage: `url(${props.desktopImg})`,
           backgroundSize: "100% 100%",

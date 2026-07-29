@@ -4,6 +4,7 @@ import OtherNavbar from "../components/OtherNavbar";
 import ClassCardSection from "../components/ClassCardSection";
 import { ClassPage } from "../data/AssetsLinks";
 
+
 function Classes() {
   return (
     <>
@@ -17,9 +18,9 @@ function Classes() {
         subtitle={"Capturing moments of musical joy, growth, and achievement"}
       />
       {/* <OtherHero mobileImg={frame1} /> */}
-
+      
       <ClassCardSection />
-
+      
       <Footer />
     </>
   );

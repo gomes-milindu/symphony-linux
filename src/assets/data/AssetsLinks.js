@@ -37,6 +37,9 @@ export const LandingPage = {
   BathiGee: "https://i.ibb.co/C5YqwKnk/may23-vesak-buddha-1080x675.webp",
   Event2: "https://i.ibb.co/pBvwVBTW/event-2.webp",
   Event3: "https://i.ibb.co/vxSxPMJ5/event-3.webp",
+  IndependanceDay: "https://i.ibb.co/s9jBkVZB/independence.webp",
+  Wesak:  "https://i.ibb.co/S4wTWvt7/wesak.webp",
+  Sarena : "https://i.ibb.co/zVSxkcSQ/images.webp",
 
   // Curves
   LandingLeftCurve: "https://i.ibb.co/5xW5Fm5Y/Left-Curve.webp",
