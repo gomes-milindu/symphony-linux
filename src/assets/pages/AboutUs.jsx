@@ -20,7 +20,7 @@ function AboutUs(){
         tabletImg={AboutPage.Tablet_BG} 
         mobileImg={AboutPage.Mobile_BG} 
         desktopImg={AboutPage.Desktop_BG}
-        title={"About Harmony"} subtitle={"Capturing moments of musical joy, growth, and achievement"} 
+        title={"About Symphony"} subtitle={"Capturing moments of musical joy, growth, and achievement"} 
         
         />
         {/* <AchievementCartSet /> */}

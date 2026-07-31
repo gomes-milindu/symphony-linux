@@ -36,8 +36,8 @@ function AboutOurStory() {
             
           />
 
-          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-justify p-2">
-           Universal understanding through music.
+          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center p-2">
+           To provide high-quality music education that inspires creativity, discipline, and lifelong learning. We are committed to nurturing every student's musical potential while promoting cultural appreciation, artistic excellence, and a universal understanding through the language of music
           </p>
         </div>
 
@@ -48,8 +48,8 @@ function AboutOurStory() {
             
           />
 
-          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center text-justify p-2">
-            Let us study music properly and move from joy toward wisdom
+          <p className="text-gray-600 text-[15px] md:text-[17px] leading-relaxed text-center  p-2">
+            To become a leading music institution that empowers individuals through excellence in music education. We envision a world where the study of music transforms lives, builds character, and guides people from joy toward wisdom, creativity, and meaningful artistic expression.
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import HomePageBtn from "./HomePageBtn";
 import { LandingPage } from "../data/AssetsLinks.js";
-
+import { getCloudinaryUrl } from "../utils/cloudinary";
 
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
         <div
           className="w-full h-full  bg-no-repeat bg-contain overflow-hidden flex flex-col justify-start items-center"
           style={{
-            backgroundImage: `url(${LandingPage.Header_Mobile})`,
+            backgroundImage: `url(${getCloudinaryUrl(LandingPage.Header_Mobile, 800)})`,
             backgroundSize: "100% auto",
           }}
         >

@@ -29,7 +29,7 @@ function FooterMobile() {
                 <div className="">Music Institue</div>
               </div>
               <div className="text-[12px] text-center max-w-[300px] text-[#99A1AF]">
-                Inspiring musical excellence and creativity since 2010. Join us
+                Inspiring musical excellence and creativity since 2016. Join us
                 and unleash your musical talent.
               </div>
             </div>
