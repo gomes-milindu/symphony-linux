@@ -151,7 +151,7 @@ function FooterMobile() {
                   Copyright © 2026 Symphony Music Institute
                 </p>
                 <p className="text-[11px] text-white/50 text-center">
-                  Implemented by <a href="" className="hover:underline hover:font-bold">Threads Software Solutions</a>
+                  Implemented by <a href="https://www.facebook.com/share/1EoHRj1dXy/" className="hover:underline hover:font-bold">Threads Software Solutions</a>
                 </p>
               </div>
             </div>
