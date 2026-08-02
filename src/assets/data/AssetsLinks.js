@@ -133,6 +133,10 @@ export const AboutPage = {
   Staff_Image2: "https://i.ibb.co/v62XDzt6/Keyboard.webp",
   Staff_Image3: "https://i.ibb.co/7dTPpW6m/Drums.webp",
   Staff_Image4: "https://i.ibb.co/GvF617Nc/Piano.webp",
+  Staff_Image5: "https://i.ibb.co/fdC0x9KH/sandeepa.webp",
+  Staff_Image6: "https://i.ibb.co/nqzPRKkJ/white.webp",
+  Staff_Image7: "https://i.ibb.co/HpnJ4mNb/black.webp",
+  Staff_Image8: "https://i.ibb.co/rKhBzXGP/Kids.webp",
 
   // About Mobile Components
 

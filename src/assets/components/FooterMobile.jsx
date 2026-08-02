@@ -77,6 +77,39 @@ function FooterMobile() {
                   </div>
                 </div>
               </div>
+              
+
+              
+
+                
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               {/* right */}
               <div className="">
@@ -107,6 +140,9 @@ function FooterMobile() {
             </div>
           </div>
 
+
+          
+
           {/* Copyright */}
           <div className="w-full px-6 mt-4">
             <div className="border-t border-white/20 pt-4">
@@ -115,7 +151,7 @@ function FooterMobile() {
                   Copyright © 2026 Symphony Music Institute
                 </p>
                 <p className="text-[11px] text-white/50 text-center">
-                  Implemented by Threads Software Solutions
+                  Implemented by <a href="" className="hover:underline hover:font-bold">Threads Software Solutions</a>
                 </p>
               </div>
             </div>
