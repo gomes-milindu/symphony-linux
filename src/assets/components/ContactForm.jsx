@@ -21,8 +21,7 @@ export default function ContactForm() {
       lastName: "",
       email: "",
       phone: "",
-      class: "",
-      grade: "",
+      
       message: "",
     });
 
@@ -67,23 +66,7 @@ export default function ContactForm() {
               </div>
             </Field>
 
-            <Field label="Select Class*">
-              <select name="class" onChange={handleChange}
-                className={inputStyle}>
-                <option>Select Class</option>
-                <option>Class A</option>
-                <option>Class B</option>
-              </select>
-            </Field>
-
-            <Field label="Select Grade*">
-              <select name="grade" onChange={handleChange}
-                className={inputStyle}>
-                <option>Select Grade</option>
-                <option>Grade 1</option>
-                <option>Grade 2</option>
-              </select>
-            </Field>
+            
 
           </div>
 

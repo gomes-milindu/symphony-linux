@@ -29,7 +29,7 @@ function FooterMobile() {
                 <div className="">Music Institue</div>
               </div>
               <div className="text-[12px] text-center max-w-[300px] text-[#99A1AF]">
-                Inspiring musical excellence and creativity since 2010. Join us
+                Inspiring musical excellence and creativity since 2016. Join us
                 and unleash your musical talent.
               </div>
             </div>
@@ -77,6 +77,39 @@ function FooterMobile() {
                   </div>
                 </div>
               </div>
+              
+
+              
+
+                
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               {/* right */}
               <div className="">
@@ -107,6 +140,9 @@ function FooterMobile() {
             </div>
           </div>
 
+
+          
+
           {/* Copyright */}
           <div className="w-full px-6 mt-4">
             <div className="border-t border-white/20 pt-4">
@@ -115,7 +151,7 @@ function FooterMobile() {
                   Copyright © 2026 Symphony Music Institute
                 </p>
                 <p className="text-[11px] text-white/50 text-center">
-                  Implemented by Threads Software Solutions
+                  Implemented by <a href="https://www.facebook.com/share/1EoHRj1dXy/" className="hover:underline hover:font-bold">Threads Software Solutions</a>
                 </p>
               </div>
             </div>

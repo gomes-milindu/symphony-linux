@@ -1,6 +1,6 @@
 import { HiBars3 } from "react-icons/hi2";
 import { useState } from "react";
-
+import { getCloudinaryUrl } from "../utils/cloudinary";
 import { IoClose } from "react-icons/io5";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -24,7 +24,7 @@ function OtherHero(props) {
       {/* ===== Mobile hero ===== */}
       <div
         className="block sm:hidden w-full h-[65vh] bg-cover bg-bottom bg-no-repeat relative"
-        style={{ backgroundImage: `url(${props.mobileImg})` }}
+        style={{ backgroundImage: `url(${getCloudinaryUrl(props.mobileImg, 800)})`, }}
       >
         {/* top bar */}
         <div className="flex justify-end items-center h-12 text-3xl p-5">

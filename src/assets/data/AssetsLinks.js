@@ -6,7 +6,7 @@ import PrinciplaMessage from "../components/PrincipleMessage";
 
 export const LandingPage = {
   // Header Mobile View
-  Header_Mobile: "https://i.ibb.co/3yFhxHMC/Header-Mobile.webp",
+  Header_Mobile: "https://res.cloudinary.com/daozza7au/image/upload/f_auto,q_auto,w_800/v1785526348/group_begr4u.webp",
   Header_Mobile_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
   
   // Header Tablet View
@@ -120,17 +120,23 @@ export const GalleryPage = {
 
 export const AboutPage = {
   Tablet_BG: "https://i.ibb.co/RZRrMxp/Tab-About.png",
-  Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/f_auto,q_auto,w_1200/v1785525151/Frame_229_cjdlbv.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
-  PrincipleMessage_Image: "https://i.ibb.co/zh8RjFtX/principle.webp", 
+  PrincipleMessage_Image: "https://i.ibb.co/dsY73n3L/Principal.webp", 
 
   // Staff Image Curve
   LightGrey_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/LightGray.png",
   DarkBlue_Curve: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/About%20us/DarkCurve.png",
 
   // Staff Section
-  Staff_Image1: "https://i.ibb.co/M5BJdd0j/staff-1.webp",
-  Staff_Image2: "https://i.ibb.co/hRJ0YP9z/staff-2.webp",
+  Staff_Image1: "https://i.ibb.co/kgy5MSKG/Guitar.webp",
+  Staff_Image2: "https://i.ibb.co/v62XDzt6/Keyboard.webp",
+  Staff_Image3: "https://i.ibb.co/7dTPpW6m/Drums.webp",
+  Staff_Image4: "https://i.ibb.co/GvF617Nc/Piano.webp",
+  Staff_Image5: "https://i.ibb.co/fdC0x9KH/sandeepa.webp",
+  Staff_Image6: "https://i.ibb.co/nqzPRKkJ/white.webp",
+  Staff_Image7: "https://i.ibb.co/HpnJ4mNb/black.webp",
+  Staff_Image8: "https://i.ibb.co/rKhBzXGP/Kids.webp",
 
   // About Mobile Components
 
