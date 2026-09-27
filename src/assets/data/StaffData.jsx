@@ -52,22 +52,22 @@ export const StaffData = [
     image: AboutPage.Staff_Image1,
   },
 
-  {
-    id: 7,
-    name: "Mr. Sachin",
-    qualification: "Electronic Keyboard Instructor",
-    email: "",
-    phone: "",
-    image: AboutPage.Staff_Image2,
-  },
+  // {
+  //   id: 7,
+  //   name: "Mr. Sachin",
+  //   qualification: "Electronic Keyboard Instructor",
+  //   email: "",
+  //   phone: "",
+  //   image: AboutPage.Staff_Image2,
+  // },
 
-  {
-    id: 8,
-    name: "Mr. Vihan",
-    qualification: "Drums Instructor",
-    email: "",
-    phone: "",
-    image: AboutPage.Staff_Image3,
-  },
+  // {
+  //   id: 8,
+  //   name: "Mr. Vihan",
+  //   qualification: "Drums Instructor",
+  //   email: "",
+  //   phone: "",
+  //   image: AboutPage.Staff_Image3,
+  // },
   
 ];

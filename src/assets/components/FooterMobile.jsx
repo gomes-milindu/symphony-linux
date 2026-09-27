@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Footer } from "../data/AssetsLinks.js";
+import { Footer, SocialMediaLinks } from "../data/AssetsLinks.js";
 import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 function FooterMobile() {
@@ -99,16 +99,16 @@ function FooterMobile() {
             <div className="flex flex-col gap-3 mt-10">
               <div className="text-[18px] text-yellow-400">Social Media</div>
               <div className="flex flex-row gap-3">
-                <a href="#" className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
+                <a href={SocialMediaLinks.Facebook} className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
                   <Facebook className="w-4 h-4 text-yellow-500" strokeWidth={2} />
                 </a>
-                <a href="#" className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
+                <a href={SocialMediaLinks.Instagram} className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
                   <Instagram className="w-4 h-4 text-yellow-500" strokeWidth={2} />
                 </a>
-                <a href="#" className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
+                <a href={SocialMediaLinks.Twitter} className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
                   <Twitter className="w-4 h-4 text-yellow-500" strokeWidth={2} />
                 </a>
-                <a href="#" className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
+                <a href={SocialMediaLinks.Youtube} className="w-8 h-8 rounded-full bg-[#2f2d24] flex items-center justify-center hover:bg-[#2a303c] transition-colors">
                   <Youtube className="w-4 h-4 text-yellow-500" strokeWidth={2} />
                 </a>
               </div>
@@ -138,7 +138,7 @@ function FooterMobile() {
         <div className="border-t border-white/20 pt-4">
           <div className="flex flex-col items-center justify-center gap-1">
             <p className="text-[11px] text-white/50 text-center">
-              Copyright © 2026 Symphony Music Institute
+              Copyright © 2016 Symphony Music Institute
             </p>
             <p className="text-[11px] text-white/50 text-center">
               Implemented by <a href="https://www.facebook.com/share/1EoHRj1dXy/" className="hover:underline hover:font-bold">Threads Software Solutions</a>
