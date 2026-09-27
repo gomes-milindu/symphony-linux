@@ -6,7 +6,7 @@ import PrinciplaMessage from "../components/PrincipleMessage";
 
 export const LandingPage = {
   // Header Mobile View
-  Header_Mobile: "https://res.cloudinary.com/daozza7au/image/upload/f_auto,q_auto,w_800/v1785526348/group_begr4u.webp",
+  Header_Mobile: "https://res.cloudinary.com/daozza7au/image/upload/f_auto,q_auto,w_800/v1790522778/Header-Mobile_zrfjye.webp",
   Header_Mobile_LOGO: "https://i.ibb.co/pvZbXLBk/12-Asset-1-3-1.png",
   
   // Header Tablet View
@@ -149,4 +149,11 @@ export const ContactPage = {
   Tablet_BG: "https://i.ibb.co/R4MsXpp5/Tablet-Contact.png",
   Mobile_BG: "https://i.ibb.co/ffKb66w/Contact-Mob.webp",
   Desktop_BG: "https://i.ibb.co/twLGWGVy/Contact-Header.webp"
+};
+
+export const SocialMediaLinks = {
+  Facebook: "https://www.facebook.com/share/1GdsXaWzYr/",
+  Instagram: "https://www.instagram.com/symphony_musicinstitute?stkn=YmZ5YnBhbXI5Yms0",
+  Twitter: "https://twitter.com/symphonymusic",
+  Youtube: "https://youtube.com/@symphony_music_institute?si=iPAMvt4rbz_5HfdF"
 };
