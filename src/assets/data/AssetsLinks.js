@@ -78,7 +78,7 @@ export const Footer = {
 
 export const EventPage = {
   Tablet_BG: "https://i.ibb.co/Lds1jbYy/Tablet-Event.png",
-  Mobile_BG: "https://i.ibb.co/6cGrHG55/evenet-Mobile.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/v1792434479/Events_vtbyvh.webp",
   Desktop_BG: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/EventHeader-web.webp",
   EventCard_Calendar: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/Icons.png",
   EventCard_Time: "https://ncpjthyvbjmmcktafber.supabase.co/storage/v1/object/public/Event/Clock.png",
@@ -89,7 +89,7 @@ export const EventPage = {
 
 export const ClassPage = {
   Tablet_BG: "https://i.ibb.co/Myj9t4TH/Tablet-Class.png",
-  Mobile_BG: "https://i.ibb.co/ksbjWRRC/mob-Clz.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/f_webp/q_auto:best/ourClass_ocmjor.webp",
   Desktop_BG: "https://i.ibb.co/Gv78yfJ3/Classes-Header.webp",
   Class_1: "https://i.ibb.co/R4CtPB0q/guitar-class.webp",
   Class_2: "https://i.ibb.co/C5JTxMnR/violin-class.webp",
@@ -103,7 +103,7 @@ export const ClassPage = {
 
 export const GalleryPage = {
   Tablet_BG: "https://i.ibb.co/Gb6NHzV/Tablet-Gallery.png",
-  Mobile_BG: "https://i.ibb.co/WWjxXnfs/mob-Gallery.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/v1792434590/Gallery_h6rbv0.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
 
   MusicGallery_1: "https://i.ibb.co/S4Q72nNL/gallery-1.webp",
@@ -120,7 +120,7 @@ export const GalleryPage = {
 
 export const AboutPage = {
   Tablet_BG: "https://i.ibb.co/RZRrMxp/Tab-About.png",
-  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/f_auto,q_auto,w_1200/v1785525151/Frame_229_cjdlbv.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/v1792434691/About_hvkneo.webp",
   Desktop_BG: "https://i.ibb.co/prRXdjwR/Gallery-Header.webp",
   PrincipleMessage_Image: "https://i.ibb.co/dsY73n3L/Principal.webp", 
 
@@ -147,7 +147,7 @@ export const AboutPage = {
 
 export const ContactPage = {
   Tablet_BG: "https://i.ibb.co/R4MsXpp5/Tablet-Contact.png",
-  Mobile_BG: "https://i.ibb.co/ffKb66w/Contact-Mob.webp",
+  Mobile_BG: "https://res.cloudinary.com/daozza7au/image/upload/v1792434820/ContactUs_jsu1dm.webp",
   Desktop_BG: "https://i.ibb.co/twLGWGVy/Contact-Header.webp"
 };
 
