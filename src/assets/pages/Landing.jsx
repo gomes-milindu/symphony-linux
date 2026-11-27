@@ -12,6 +12,7 @@ import LandingLeftCurve from "../components/LandingLeftCurve";
 import LandingRightCurve from "../components/LandingRightCurve";
 import { useEffect } from "react";
 import { ClassPage, EventPage } from "../data/AssetsLinks.js";
+import TopStudents from "../components/TopStudents.jsx";
 
 export default function Landing() {
 
@@ -42,6 +43,7 @@ export default function Landing() {
       
       <Reveal>
         <Student />
+        <TopStudents/>
       </Reveal>
       {/* <LandingRightCurve />  */}
       <ClassCartSet />
