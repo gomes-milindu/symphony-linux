@@ -4,9 +4,9 @@ export default function TopStudents({
   academy = "Harmony Music Academy",
 }) {
   return (
-    <div className="w-full max-w-[300px] bg-white rounded-[40px] border-[3.5px] border-[#DFD7C8] p-[14px] shadow-[0_14px_34px_-6px_rgba(35,28,18,0.14)] font-secondary">
+    <div className="w-full max-w-[300px] bg-[#FFFCF3] rounded-[40px] border-[3.5px] border-yellow-400 p-[14px] shadow-[0_14px_34px_-6px_rgba(224,138,0,0.16)] transition-all duration-300 hover:border-[#FFC107] hover:shadow-[0_16px_38px_-6px_rgba(255,193,7,0.32)] font-secondary">
       {/* Image Frame */}
-      <div className="w-full aspect-[1/1.03] rounded-[28px] bg-[#EFE0C3] overflow-hidden shadow-[0_8px_18px_-4px_rgba(0,0,0,0.18)]">
+      <div className="w-full aspect-[1/1.03] rounded-[28px] bg-[#FFF4D2] overflow-hidden shadow-[0_8px_18px_-4px_rgba(200,124,3,0.22)]">
         <img
           src={image}
           alt={name}
@@ -16,14 +16,13 @@ export default function TopStudents({
 
       {/* Student Info */}
       <div className="pt-6 pb-7 px-3 text-center">
-        <h3 className="text-[28px] sm:text-[30px] font-light text-[#1F1F1F] leading-tight tracking-[-0.01em]">
+        <h3 className="text-[28px] sm:text-[30px] font-light text-[#2B2B2B] leading-tight tracking-[-0.01em]">
           {name}
         </h3>
-        <p className="mt-1.5 text-[13px] sm:text-[13.5px] font-normal text-[#4A4A4A] tracking-[0.03em] leading-snug">
+        <p className="mt-1.5 text-[13px] sm:text-[13.5px] font-medium text-[#C87C03] tracking-[0.03em] leading-snug">
           {academy}
         </p>
       </div>
     </div>
   );
 }
-
